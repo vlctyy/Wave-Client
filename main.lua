@@ -1,55 +1,61 @@
+-- Grabbing the Rayfield UI library from the web. Careful with this!
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
--- Check if Rayfield loaded successfully
+-- Checking if Rayfield even loaded. Gotta make sure it works!
 if Rayfield then
+    -- Creating the main window for the whole cheat.
     local Window = Rayfield:CreateWindow({
-        Name = "Wave Client V1",
-        Icon = 0,
-        LoadingTitle = "Wave Utility GUI",
-        LoadingSubtitle = "By wavezq",
-        Theme = "Ocean",
-        DisableRayfieldPrompts = false,
-        DisableBuildWarnings = false,
+        Name = "Wave Client V1", -- Name of the window, pretty obvious.
+        Icon = 0, -- No icon for now, can add one later.
+        LoadingTitle = "Wave Utility GUI", -- Title when it's loading.
+        LoadingSubtitle = "By wavezq", -- Gotta show who made it.
+        Theme = "Ocean", -- Makes it look blue and stuff, pretty cool.
+        DisableRayfieldPrompts = false, -- Get rid of the annoying prompts.
+        DisableBuildWarnings = false, -- Warnings are for noobs.
         ConfigurationSaving = {
-            Enabled = true,
-            FolderName = nil,
-            FileName = "WC-Settings"
+            Enabled = true, -- Save the settings so you don't have to redo everything.
+            FolderName = nil, -- You can organize it if you want.
+            FileName = "WC-Settings" -- Name of the settings file.
         },
         Discord = {
-            Enabled = true,
-            Invite = "q2fwB2KMPX",
-            RememberJoins = true
+            Enabled = true, -- Get people to join your Discord server.
+            Invite = "q2fwB2KMPX", -- Your Discord invite code.
+            RememberJoins = true  -- Make 'em join every time, haha.
         },
-        KeySystem = false,
-        KeySettings = {
+        KeySystem = false, -- No key system, it's annoying.
+        KeySettings = { -- Even if we don't use it, gotta have the settings ready.
             Title = "Untitled",
             Subtitle = "Key System",
-            Note = "No method of obtaining the key is provided",
+            Note = "No method of obtaining the key is provided", -- LOL
             FileName = "Key",
             SaveKey = true,
             GrabKeyFromSite = false,
-            Key = {"Hello"}
+            Key = {"Hello"} -- This key does nothing.
         }
     })
 
-    -- Create the "Combat" Tab
+    -- Making the "Combat" Tab - Where all the fighting stuff goes.
     local CombatTab = Window:CreateTab("Combat")
 
-    -- Create the "Visuals" Tab
+    -- Making the "Visuals" Tab - For the graphics tweaks.
     local VisualsTab = Window:CreateTab("Visuals")
 
-    -- Silent Auto Code:
+    -- ======================================================================
+    -- Auto Clicker Stuff Starts Here
+    -- ======================================================================
 
-    local AutoClicker = { Enabled = false } -- Initialize AutoClicker table
-    local CPS = {Min = 7, Max = 7} -- Default CPS values
-    local BlockCPS = {Min = 12, Max = 12, Object = nil} -- Default block CPS
-    local PlaceBlocks = true
+    local AutoClicker = { Enabled = false } -- Is the autoclicker turned on or not?
+    local CPS = {Min = 7, Max = 7} -- Clicks per second, gotta be fast!
+    local BlockCPS = {Min = 12, Max = 12, Object = nil} -- How fast to place blocks.
+    local PlaceBlocks = true -- Should we even be placing blocks?
 
-    local inputService = game:GetService("UserInputService") -- define inputService
-    local bedwars = require(game:GetService("ReplicatedStorage").Assets.Modules.Bedwars) -- define bedwars
-    local store = require(bedwars.AppController:getStoreModulePath()) -- define store
-    local lplr = game.Players.LocalPlayer -- define lplr
+    -- Grabbing these services, they're important for the code.
+    local inputService = game:GetService("UserInputService") -- For detecting clicks.
+    local bedwars = require(game:GetService("ReplicatedStorage").Assets.Modules.Bedwars) -- Bedwars stuff.
+    local store = require(bedwars.AppController:getStoreModulePath()) -- The in-game store.
+    local lplr = game.Players.LocalPlayer -- You, the player!
 
+    -- The function that actually clicks for you!
     local function AutoClick() -- Pass in dependencies
         local Thread
 
@@ -77,10 +83,13 @@ if Rayfield then
         end
     end
 
+
     local autoClickFunction = AutoClick() -- Pass in dependencies
 
+    -- Section for all the AutoClicker Settings
     local Section = CombatTab:CreateSection("AutoClicker Settings")
 
+    -- Toggle to turn the AutoClicker on and off
     local Toggle = CombatTab:CreateToggle({
         Name = "AutoClicker",
         CurrentValue = false,
@@ -96,7 +105,7 @@ if Rayfield then
         end,
     })
 
-     -- CPS SLIDER
+     -- CPS SLIDERS - Control how fast it clicks.
 
      local SliderMin = CombatTab:CreateSlider({
         Name = "CPS Min",
@@ -160,23 +169,16 @@ if Rayfield then
         end
      })
 
-    --Tab:CreateParagraph({Title = "Credits", Content = "Created by: TheWave"})
-
-     -- Example Label
      local Label = CombatTab:CreateLabel("Credits: TheWave")
 
-    -- Example "Destroy UI" Button
-    local Button = CombatTab:CreateButton({
-        Name = "Destroy UI",
-        Callback = function()
-            Rayfield:Destroy()
-        end,
-    })
+    -- ======================================================================
+    -- Visuals Tab Stuff Starts Here
+    -- ======================================================================
 
-    -- Visuals Start Here
+    -- Default image ID for the crosshair
+    local ImageId = 0
 
-    local ImageId = 0 -- Default image ID
-
+    -- Function to apply the crosshair, make sure it works!
     local function ApplyCrosshair()
         local success, err = pcall(function()
             debug.setconstant(bedwars.ViewmodelController.show, 25, ImageId)
@@ -192,8 +194,9 @@ if Rayfield then
         end
     end
 
-    local CrosshairEnabled = false
+    local CrosshairEnabled = false -- Is the crosshair on or off?
 
+    -- Toggle to turn the crosshair on/off.
     local CrosshairToggle = VisualsTab:CreateToggle({
         Name = "Crosshair",
         CurrentValue = false,
@@ -204,7 +207,7 @@ if Rayfield then
                 ApplyCrosshair()
                 print("Crosshair Enabled")
             else
-                debug.setconstant(bedwars.ViewmodelController.show, 25, 0) -- Set back to default
+                debug.setconstant(bedwars.ViewmodelController.show, 25, 0) -- Back to default
                 debug.setconstant(bedwars.ViewmodelController.show, 37, 0)
                 if bedwars.CameraPerspectiveController:getCameraPerspective() == 0 then
                     bedwars.ViewmodelController:hide()
@@ -215,45 +218,48 @@ if Rayfield then
         end,
     })
 
-
-      -- Textbox for Image ID
+     -- Textbox for the Image ID - Where you put the Roblox ID.
         local ImageInput = VisualsTab:CreateInput({
         Name = "Image ID",
         CurrentValue = "",
-        PlaceholderText = "Enter Image ID",
-        RemoveTextAfterFocusLost = false,
-        Flag = "ImageIDInput",
+        PlaceholderText = "Enter Image ID", -- Tells you what to put in.
+        RemoveTextAfterFocusLost = false, -- Keep the text.
+        Flag = "ImageIDInput", -- Gotta have a unique flag.
         Callback = function(Text)
-           -- Attempt to convert the text to a number
+           -- Try to turn the text into a number.
            local number = tonumber(Text)
-           -- If the conversion was successful, assign it to ImageId
+           -- If it worked, set the ImageId to that number.
            if number then
                ImageId = number
                print("Image ID set to: ", ImageId)
            else
-               print("Invalid input: Please enter a number for the Image ID")
+               print("Invalid input: Please enter a number for the Image ID") -- Tell 'em if it's wrong.
            end
-           if CrosshairEnabled then
+           if CrosshairEnabled then -- Update the crosshair if it's on.
                 ApplyCrosshair()
             end
         end,
      })
 
+      -- Credits
       Tab:CreateParagraph({Title = "Credits", Content = "Created by: TheWave"})
 
-     -- Example Label
+     -- Display the credits in the top of the ui
+
      local Label = VisualsTab:CreateLabel("Created By TheWave")
 
-    -- Example "Destroy UI" Button
+    -- Button to destroy the UI
     local Button = VisualsTab:CreateButton({
         Name = "Destroy UI",
         Callback = function()
-            Rayfield:Destroy()
+            Rayfield:Destroy() -- Get rid of it.
         end,
     })
 
+     -- Load the UI
      Rayfield:LoadModule()
 
 else
+    -- If Rayfield didn't load, tell the world.
     warn("Rayfield UI library failed to load!")
 end

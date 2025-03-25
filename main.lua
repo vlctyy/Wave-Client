@@ -1,3 +1,4 @@
+-- Grabbing the Rayfield UI library from the web. Careful with this!
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 -- Checking if Rayfield even loaded. Gotta make sure it works!
@@ -45,14 +46,20 @@ if Rayfield then
 
     local AutoClicker = { Enabled = false } -- Is the autoclicker turned on or not?
     local CPS = {Min = 7, Max = 7} -- Clicks per second, gotta be fast!
-    local BlockCPS = {Min = 12, Max = 12, Object = nil} -- How fast to place blocks.
+    local BlockCPS = {Min = 12, Max = 12} -- How fast to place blocks.
     local PlaceBlocks = true -- Should we even be placing blocks?
 
-    -- Grabbing these services, they're important for the code.
-    local inputService = game:GetService("UserInputService") -- For detecting clicks.
-    local bedwars = require(game:GetService("ReplicatedStorage").Assets.Modules.Bedwars) -- Bedwars stuff.
-    local store = require(bedwars.AppController:getStoreModulePath()) -- The in-game store.
+    -- Gotta grab these services, they're important.
+    local inputService = game:GetService("UserInputService") -- For detecting mouse clicks.
+    local bedwars = game:GetService("ReplicatedStorage"):FindFirstChild("Bedwars") -- Bedwars stuff, obviously.
+    local store = require(bedwars.AppController:getStoreModulePath()) -- In-game store stuff.
     local lplr = game.Players.LocalPlayer -- You, the player!
+
+        -- Check if bedwars loaded, or else things gonna break HARD.
+    if not bedwars then
+        warn("Bedwars module not found! Check your game's ReplicatedStorage.")
+        return -- Stop the script if Bedwars isn't there
+    end
 
     -- The function that actually clicks for you!
     local function AutoClick() -- Pass in dependencies
@@ -89,7 +96,7 @@ if Rayfield then
     local Section = CombatTab:CreateSection("AutoClicker Settings")
 
     -- Toggle to turn the AutoClicker on and off
-    local Toggle = CombatTab:CreateToggle({
+    local AutoClickerToggle = CombatTab:CreateToggle({ -- Changed variable name to avoid conflict
         Name = "AutoClicker",
         CurrentValue = false,
         Flag = "AutoClickerToggle",
@@ -106,7 +113,7 @@ if Rayfield then
 
      -- CPS SLIDERS - Control how fast it clicks.
 
-     local SliderMin = CombatTab:CreateSlider({
+     local CPSMinSlider = CombatTab:CreateSlider({ -- Changed variable name to avoid conflict
         Name = "CPS Min",
         Range = {1, 20},
         Increment = 1,
@@ -119,7 +126,7 @@ if Rayfield then
         end
      })
 
-    local SliderMax = CombatTab:CreateSlider({
+    local CPSMaxSlider = CombatTab:CreateSlider({ -- Changed variable name to avoid conflict
        Name = "CPS Max",
         Range = {1, 20},
         Increment = 1,
@@ -137,7 +144,7 @@ if Rayfield then
         CurrentValue = true,
         Flag = "PlaceBlockToggle",
         Callback = function(Value)
-            PlaceBlocks = Value -- Assign the slider value to a Lua variable
+            PlaceBlocks = Value -- Assign the toggle value to PlaceBlocks
            print("Place Block: ", Value)
         end
     })
@@ -257,7 +264,6 @@ if Rayfield then
 
      -- Load the UI
      Rayfield:LoadModule()
-     Rayfield:LoadConfiguration()
 
 else
     -- If Rayfield didn't load, tell the world.

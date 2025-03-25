@@ -1,4 +1,3 @@
--- Grabbing the Rayfield UI library from the web. Careful with this!
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 -- Checking if Rayfield even loaded. Gotta make sure it works!
@@ -258,6 +257,7 @@ if Rayfield then
 
      -- Load the UI
      Rayfield:LoadModule()
+     Rayfield:LoadConfiguration()
 
 else
     -- If Rayfield didn't load, tell the world.

@@ -6,7 +6,7 @@ if Rayfield then
     -- Creating the main window for the whole cheat.
     local Window = Rayfield:CreateWindow({
         Name = "Wave Client V1", -- Name of the window, pretty obvious.
-        Icon = 0, -- No icon for now, can add one later.
+        Icon = "waves", -- Lucide icon for aesthetics.
         LoadingTitle = "Wave Utility GUI", -- Title when it's loading.
         LoadingSubtitle = "By wavezq", -- Gotta show who made it.
         Theme = "Ocean", -- Makes it look blue and stuff, pretty cool.
@@ -23,22 +23,19 @@ if Rayfield then
             RememberJoins = true  -- Make 'em join every time, haha.
         },
         KeySystem = false, -- No key system, it's annoying.
-        KeySettings = { -- Even if we don't use it, gotta have the settings ready.
-            Title = "Untitled",
-            Subtitle = "Key System",
-            Note = "No method of obtaining the key is provided", -- LOL
-            FileName = "Key",
-            SaveKey = true,
-            GrabKeyFromSite = false,
-            Key = {"Hello"} -- This key does nothing.
-        }
     })
 
-    -- Making the "Combat" Tab - Where all the fighting stuff goes.
-    local CombatTab = Window:CreateTab("Combat")
+    -- Creating the "Combat" Tab with a sword icon
+    local CombatTab = Window:CreateTab("Combat", "sword")
 
-    -- Making the "Visuals" Tab - For the graphics tweaks.
-    local VisualsTab = Window:CreateTab("Visuals")
+    -- Creating the "Visuals" Tab with an eye icon
+    local VisualsTab = Window:CreateTab("Visuals", "eye")
+
+    -- Creating the "Settings" Tab with a settings icon
+    local SettingsTab = Window:CreateTab("Settings", "settings")
+
+    -- Creating "Credits" Tab with a users icon
+    local CreditsTab = Window:CreateTab("Credits", "users")
 
     -- ======================================================================
     -- Auto Clicker Stuff Starts Here
@@ -46,20 +43,14 @@ if Rayfield then
 
     local AutoClicker = { Enabled = false } -- Is the autoclicker turned on or not?
     local CPS = {Min = 7, Max = 7} -- Clicks per second, gotta be fast!
-    local BlockCPS = {Min = 12, Max = 12} -- How fast to place blocks.
+    local BlockCPS = {Min = 12, Max = 12, Object = nil} -- How fast to place blocks.
     local PlaceBlocks = true -- Should we even be placing blocks?
 
-    -- Gotta grab these services, they're important.
-    local inputService = game:GetService("UserInputService") -- For detecting mouse clicks.
-    local bedwars = game:GetService("ReplicatedStorage"):FindFirstChild("Bedwars") -- Bedwars stuff, obviously.
-    local store = require(bedwars.AppController:getStoreModulePath()) -- In-game store stuff.
+    -- Grabbing these services, they're important for the code.
+    local inputService = game:GetService("UserInputService") -- For detecting clicks.
+    local bedwars = require(game:GetService("ReplicatedStorage").Assets.Modules.Bedwars) -- Bedwars stuff.
+    local store = require(bedwars.AppController:getStoreModulePath()) -- The in-game store.
     local lplr = game.Players.LocalPlayer -- You, the player!
-
-        -- Check if bedwars loaded, or else things gonna break HARD.
-    if not bedwars then
-        warn("Bedwars module not found! Check your game's ReplicatedStorage.")
-        return -- Stop the script if Bedwars isn't there
-    end
 
     -- The function that actually clicks for you!
     local function AutoClick() -- Pass in dependencies
@@ -89,14 +80,13 @@ if Rayfield then
         end
     end
 
-
     local autoClickFunction = AutoClick() -- Pass in dependencies
 
     -- Section for all the AutoClicker Settings
     local Section = CombatTab:CreateSection("AutoClicker Settings")
 
     -- Toggle to turn the AutoClicker on and off
-    local AutoClickerToggle = CombatTab:CreateToggle({ -- Changed variable name to avoid conflict
+    local Toggle = CombatTab:CreateToggle({
         Name = "AutoClicker",
         CurrentValue = false,
         Flag = "AutoClickerToggle",
@@ -111,9 +101,9 @@ if Rayfield then
         end,
     })
 
-     -- CPS SLIDERS - Control how fast it clicks.
+    -- CPS SLIDERS - Control how fast it clicks.
 
-     local CPSMinSlider = CombatTab:CreateSlider({ -- Changed variable name to avoid conflict
+    local SliderMin = CombatTab:CreateSlider({
         Name = "CPS Min",
         Range = {1, 20},
         Increment = 1,
@@ -126,7 +116,7 @@ if Rayfield then
         end
      })
 
-    local CPSMaxSlider = CombatTab:CreateSlider({ -- Changed variable name to avoid conflict
+    local SliderMax = CombatTab:CreateSlider({
        Name = "CPS Max",
         Range = {1, 20},
         Increment = 1,
@@ -144,7 +134,7 @@ if Rayfield then
         CurrentValue = true,
         Flag = "PlaceBlockToggle",
         Callback = function(Value)
-            PlaceBlocks = Value -- Assign the toggle value to PlaceBlocks
+            PlaceBlocks = Value -- Assign the slider value to a Lua variable
            print("Place Block: ", Value)
         end
     })
@@ -248,14 +238,10 @@ if Rayfield then
      })
 
       -- Credits
-      Tab:CreateParagraph({Title = "Credits", Content = "Created by: TheWave"})
-
-     -- Display the credits in the top of the ui
-
-     local Label = VisualsTab:CreateLabel("Created By TheWave")
+      CreditsTab:CreateLabel("Created By TheWave")
 
     -- Button to destroy the UI
-    local Button = VisualsTab:CreateButton({
+    local Button = SettingsTab:CreateButton({
         Name = "Destroy UI",
         Callback = function()
             Rayfield:Destroy() -- Get rid of it.
@@ -263,7 +249,7 @@ if Rayfield then
     })
 
      -- Load the UI
-     Rayfield:LoadModule()
+     Rayfield:LoadConfiguration()
 
 else
     -- If Rayfield didn't load, tell the world.

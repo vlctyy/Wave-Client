@@ -48,7 +48,7 @@ if Rayfield then
 
     -- Grabbing these services, they're important for the code.
     local inputService = game:GetService("UserInputService") -- For detecting clicks.
-    local bedwars = require(game:GetService("ReplicatedStorage").Assets.Modules.Bedwars) -- Bedwars stuff.
+    local bedwars = require(game:GetService("ReplicatedStorage").Modules.Bedwars) -- Bedwars stuff.
     local store = require(bedwars.AppController:getStoreModulePath()) -- The in-game store.
     local lplr = game.Players.LocalPlayer -- You, the player!
 

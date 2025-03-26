@@ -8,7 +8,7 @@ if Rayfield then
         Name = "Wave Client V1", -- Name of the window, pretty obvious.
         Icon = "waves", -- Lucide icon for aesthetics.
         LoadingTitle = "Wave Utility GUI", -- Title when it's loading.
-        LoadingSubtitle = "By wavezq", -- Gotta show who made it.
+        LoadingSubtitle = "By stormyyy", -- Gotta show who made it.
         Theme = "Ocean", -- Makes it look blue and stuff, pretty cool.
         DisableRayfieldPrompts = false, -- Get rid of the annoying prompts.
         DisableBuildWarnings = false, -- Warnings are for noobs.
@@ -165,7 +165,7 @@ if Rayfield then
         end
      })
 
-     local Label = CombatTab:CreateLabel("Credits: TheWave")
+     local Label = CombatTab:CreateLabel("Credits: stormyyy")
 
     -- ======================================================================
     -- Visuals Tab Stuff Starts Here
@@ -238,10 +238,13 @@ if Rayfield then
      })
 
       -- Credits
-      CreditsTab:CreateLabel("Created By TheWave")
+      CreditsTab:CreateParagraph({Title = "Credits", Content = "Created by: stormyyy"})
+
+     -- Display the credits in the top of the ui
+     local Label = CreditsTab:CreateLabel("Created By stormyyy")
 
     -- Button to destroy the UI
-    local Button = SettingsTab:CreateButton({
+    local Button = CreditsTab:CreateButton({
         Name = "Destroy UI",
         Callback = function()
             Rayfield:Destroy() -- Get rid of it.
@@ -249,7 +252,7 @@ if Rayfield then
     })
 
      -- Load the UI
-     Rayfield:LoadConfiguration()
+     Rayfield:LoadModule()
 
 else
     -- If Rayfield didn't load, tell the world.

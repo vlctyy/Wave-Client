@@ -1,1 +1,223 @@
---[[ v1.0.0 https://wearedevs.net/obfuscator ]] return(function(...)local j={"\067\097\056\085\048\110\114\081\101\049\048\054\072\090\057\108\083\120\118\043\070\102\055\078\071\121\072\049\068\048\070\111\112\122\114\109\108\082\106\049\047\112\052\073\116\079\105\105\102\055\108\053\072\121\077\121\048\115\075\057\106\073\116\112\076\065\085\061","\065\086\053\067\098\051\108\049\104\090\077\105\116\075\052\117\086\089\079\104\117\081\102\099\111\073\104\108\051\052\102\108\102\112\089\067\077\107\100\082\112\066\110\117\106\104\097\054\050\115\100\056\104\106\117\105\076\074\071\068\054\110\068\089\054\072\086\075\114\075\067\068\055\055\080\110\090\074\118\099\069\086\100\069\114\113\114\080\088\084\068\105\072\085\061\061";"\104\122\101\114\102\073\061\061";"\057\105\108\056\082\105\057\071\077\104\110\074\052\105\057\088\052\105\057\084\077\121\061\061","\078\103\108\086\065\103\065\075\078\105\110\074\082\115\061\061";"\113\100\074\097\065\121\061\061","\065\048\109\071\078\101\077\061";"\050\068\117\084\052\053\066\050\085\072\082\067\051\105\089\061";"\106\078\089\069\119\109\112\067\111\114\053\099\107\115\120\102\052\113\117\101\081\055\116\088\103\103\080\071\051\057\051\073\053\108\099\084\112\084\051\079\097\103\069\113\083\089\074\078","\106\118\103\080\097\114\070\120\105\082\108\118\071\086\055\102\109\121\121\106\107\082\077\069\106\052\120\121\107\090\107\117\110\114\109\108\066\081\100\056\082\101\097\055\111\107\056\086\075\086\075\113\071\109\054\069\069\109\115\083\110\098\049\111\053\049\114\117\048\098\115\057\049\077\071\071\101\118\048\101\054\101\090\071\102\048\056\119\090\118\067\076\110\109\056\118\071\077\098\105\065\052\087\047\078\067\074\078\081\074\116\112\120\115\079\116\088\052\054\113\075\086\103\087\085\084\106\076\107\073\113\084\074\074\077\056\102\098\071\119\101\077\050\077\103\053\078\088\109\074\073\109\077\071\102\087\051\099\086\069\120\113\075\088\052\113\110\055\088\114\080\102\119\053\048\119\085\078\083\105\112\071\047\097\081\106\114\116\122\055\118\079\048\085\061\061","\070\120\052\105\049\114\100\089\054\054\055\119\121\104\073\099\086\047\119\114\085\085\078\121\117\049\089\119\108\101\099\089\119\052\067\082\054\120\122\043\043\074\102\103\048\078\116\050\051\073\061\061","\114\104\056\101\110\097\049\101\050\048\121\067\114\104\068\043\121\121\061\061","\048\068\079\083\074\116\103\043\100\115\052\086\080\109\115\116\050\115\099\084\057\080\082\066\080\073\061\061","\072\115\061\061","\071\071\117\072\098\115\114\055\065\099\097\113\101\121\061\061";"\087\102\050\048\051\073\083\061";"\119\073\053\122\074\065\105\116\104\116\120\097\070\115\061\061";"\065\101\106\067\113\115\061\061","\054\104\084\115\077\115\083\061";"\086\082\121\074\097\083\048\090\120\073\061\061","\107\107\078\057\052\119\047\047\097\097\083\061";"\114\118\110\097\082\104\052\074\052\085\061\061","\057\100\066\101\107\105\106\087\103\048\121\101\052\097\104\097\107\121\061\061","\106\067\065\088\082\074\057\043\114\105\052\100\106\104\104\053\103\081\104\061";"\048\113\043\076\099\112\077\073\097\085\061\061";"\080\047\111\097\104\049\056\048\079\121\051\061";"\105\080\054\069\075\079\079\061";"\116\117\049\067\097\117\106\079\071\077\112\061";"\121\088\082\114\065\075\057\067\054\101\121\061","\103\084\110\111\057\088\052\084\107\048\074\081\110\100\074\081\052\121\061\061";"\103\080\111\050\076\085\061\061","\113\078\097\073\078\073\115\061";"\052\113\098\052\068\116\121\061","\083\082\068\075\074\087\056\043\121\085\061\061";"\052\101\051\068\050\103\066\105\082\101\080\073\050\053\098\043\057\088\121\061";"\050\122\076\097\111\103\065\049","\078\089\043\113";"\048\067\076\112\065\103\089\061","\069\102\043\116\100\085\070\054\109\048\075\097\087\086\085\068\072\047\053\065\081\121\107\090\089\057\075\069\088\074\054\074\081\070\114\111\106\086\043\110\085\119\118\108\108\104\085\048\122\117\051\082\047\082\086\081\066\101\073\117\107\114\122\072\056\087\050\072\072\084\104\110\117\102\115\083\048\101\107\105\097\065\074\118\121\056\115\065\073\121\061\061","\052\118\074\073\065\103\076\122","\106\122\076\079\083\108\109\101\052\105\049\049\078\081\106\080\078\118\113\061";"\072\089\109\113\081\106\116\118\082\065\075\103\109\117\115\109\047\118\111\084\051\086\116\098\112\105\071\074";"\121\098\088\115\117\054\083\061","\072\043\115\074\065\102\051\066\072\115\061\061";"\065\069\067\080\052\105\106\051";"\052\105\108\053\111\073\061\061","\083\084\069\077\090\098\112\051\088\069\098\047\076\098\073\061";"\089\074\078\043\112\121\050\072\097\053\049\114\119\056\065\098\057\110\101\117\104\066\072\120\052\117\107\080\076\069\070\122\076\069\121\089\077\079\077\086\055\070\118\052\083\056\119\043\071\106\078\068\066\120\081\114\068\098\053\074\111\119\053\087\071\116\068\080\067\115\061\061";"\057\088\098\090\105\112\100\048\067\051\085\061";"\097\099\051\066\074\048\090\078\087\078\086\090\057\055\077\090\099\086\081\109\108\070\074\086\049\098\049\067\075\083\082\119\055\050\122\072\097\068\074\072\049\077\121\098\122\109\079\079\118\099\116\066\065\066\087\102\114\084\050\120\057\110\076\054\075\116\080\114\120\113\077\073\082\073\122\116\115\115\061\061","\079\115\107\065\107\114\069\086\116\079\089\061","\078\105\057\087","\098\080\081\118\049\087\048\071\049\120\052\073\073\080\117\051\111\085\100\055\090\068\111\119";"\088\103\098\117\079\108\122\121\073\078\079\051\100\056\120\105\077\115\068\101\110\070\081\065\048\121\073\098\111\087\083\121\071\047\069\105\086\115\061\061";"\097\080\110\054\054\085\052\049\108\078\103\070\109\053\081\083\053\077\055\122\118\113\073\082\116\086\065\120\065\086\100\047\050\113\069\097\070\111\089\073\047\066\083\114\084\078\105\051\106\050\088\122\119\099\071\050\049\050\080\107\070\110\084\052\078\101\107\076\051\078\122\102\055\106\086\103\043\106\054\085\099\090\069\112\088\055\081\112\089\113\083\101\106\120\051\106\117\097\067\049\054\071\100\099\054\097\051\106\115\083\050\087\104\115\061\061","\070\065\104\105\047\110\054\077\082\087\097\121\084\108\097\073\117\069\052\068\081\085\101\054\082\100\109\067\101\081\115\047\098\057\100\105\118\116\111\109\107\109\108\070\051\067\054\078\057\081\109\049\072\116\099\115";"\048\067\076\100\113\073\061\061","\065\122\068\075\078\101\077\061","\115\121\110\052\054\077\054\097\055\080\108\082\113\047\082\090\075\101\103\085\075\103\090\077\074\119\050\079\088\073\051\084\097\082\052\105\072\050\076\071\047\051\089\109\100\066\079\121\052\087\049\104\099\112\118\055\082\052\072\099\086\084\119\086\114\113\090\100\099\074\076\075\056\104\073\061","\078\097\066\067\072\118\108\099\057\084\109\098\052\083\052\110","\102\051\120\097\116\112\117\043\085\088\108\090\043\115\061\061";"\047\054\078\068\057\073\061\061","\122\051\057\108\103\050\077\119\107\079\112\078\113\070\055\104\080\104\047\080\051\121\105\104\097\121\105\090\113\066\101\071\107\119\110\083\122\081\119\048","\078\081\104\061","\068\117\116\055\103\103\110\054\075\056\068\111\106\053\113\061";"\121\088\051\108\103\051\052\103";"\083\069\057\112\065\103\106\097\057\105\108\043","\056\102\068\114\115\098\065\075\099\043\099\119\116\050\104\067\066\111\057\101\078\121\100\106\080\055\106\122\053\080\043\075\122\084\072\050\054\105\122\054\052\099\073\075\097\080\055\107\079\077\111\075";"\079\084\113\111\106\072\084\065\057\069\083\061","\107\104\074\114\106\057\106\080\110\100\098\072\106\069\110\075\052\097\073\061";"\069\119\088\084\119\115\121\065\055\087\065\074\079\072\047\083\085\109\118\054\052\099\117\061";"\053\072\043\083\104\085\061\061","\114\103\052\087\078\101\109\074\057\105\080\074\078\103\057\050\065\048\110\097\111\103\049\100\082\073\061\061","\113\101\047\065\090\082\090\053\116\100\104\083\052\074\054\122\087\098\056\107\110\073\061\061","\121\043\079\047\097\065\048\048\050\103\072\081\068\071\108\119\116\067\055\054\085\075\048\073\090\087\110\120\073\108\103\114\049\113\086\103\071\069\067\073\104\079\077\043\083\119\073\082\080\088\072\086\077\076\054\055\043\054\072\101\090\104\051\109\081\088\088\102\074\051\087\122\105\072\115\050\118\065\089\051\051\121\097\081\110\053\113\106\105\069\049\084\053\070\101\069\047\113\072\085\076\097\071\070\073\072\078\110","\054\120\086\109\100\049\073\061","\111\069\072\066\118\048\072\085\106\053\108\078\101\055\080\056\071\067\122\072\099\106\121\116\072\074\074\056\085\047\098\103\101\070\090\082\080\106\116\069\054\100\085\099\075\067\084\075\050\120\079\065\122\072\111\110\052\075\077\061";"\115\103\118\090\081\090\122\107";"\065\118\110\073\111\104\068\104\106\074\106\122\083\103\052\086\057\097\117\061","\065\105\057\112\065\122\076\112\065\105\057\071";"\070\116\048\051\052\115\061\061";"\082\110\069\100\116\048\074\068\119\076\115\080\055\079\113\052\083\089\117\121\054\081\069\086\086\076\067\088\048\067\043\113\078\080\101\073\116\051\100\080\102\110\118\056\078\102\076\113\121\054\073\082\120\101\043\073\066\075\084\057\081\074\099\085\065\071\112\118\103\076\065\053\090\111\097\061","\077\111\106\057\051\043\117\061","\088\100\066\089\066\103\079\108\088\121\061\061","\089\051\078\070\077\114\109\075\112\067\069\090\113\107\121\073\100\083\052\110\117\089\066\055\049\088\085\118\109\098\117\113\107\079\111\107\117\075\115\111\098\090\049\081\066\084\117\061","\119\104\073\072\043\083\078\120","\102\057\054\049\076\054\085\079\090\073\069\054\097\082\104\088\072\048\088\055\047\109\119\109\084\055\054\076\105\077\057\069\121\078\085\071\090\050\082\087\081\103\116\049\075\048\100\052\089\071\101\122\108\077\078\053\121\110\084\061";"\111\048\098\080\111\048\109\053","\057\067\098\100\110\053\110\053\079\088\080\088\052\083\115\049\065\103\112\061","\105\102\069\052\114\068\098\043\075\066\090\114\057\109\104\061","\117\080\083\112\081\081\083\061";"\052\105\076\053\052\118\109\066\078\122\082\061";"\048\102\114\066\049\078\099\079\116\050\098\054\054\122\117\102\043\066\065\089\113\053\085\073\080\090\101\107\048\053\110\101\121\099\047\118\099\077\119\120\043\082\120\069\086\043\088\049\050\074\067\047","\054\106\088\066\055\081\119\099\070\073\061\061";"\113\103\113\100\097\121\061\061";"\111\084\052\051\052\083\049\111\057\108\074\120\082\048\108\056\083\067\113\061";"\065\073\048\085\082\079\052\116\049\116\090\119\113\049\113\054\086\084\121\103\055\056\075\119";"\047\098\086\067\077\065\067\077\116\074\083\117\048\118\065\050\057\079\100\072","\082\122\057\056\078\101\065\074";"\049\110\079\116\050\113\101\079\090\122\084\081\104\069\049\101\051\055\105\099\115\113\081\101\077\108\067\053\076\055\088\070\081\122\109\057\056\055\080\116\065\099\052\114\078\084\048\107\080\118\118\048\103\097\121\053\115\067\080\110\079\056\078\051\108\048\076\099\049\057\116\087\080\047\050\052\108\109\102\068\103\115\101\078\072\119\086\075\120\115\106\074\047\112\086\053";"\116\052\054\115\109\090\101\090\070\109\102\114\121\084\122\108\106\079\051\119\116\117\097\043\118\076\079\119","\057\075\055\119\071\121\061\061","\111\066\117\117\053\073\061\061";"\121\103\110\084\057\105\108\043","\081\050\048\113\085\076\097\100";"\113\069\076\087\113\069\108\097";"\100\043\109\107\056\082\073\061";"\083\100\098\111\113\053\080\087\111\081\109\066\057\053\098\048","";"\107\090\047\085\098\090\088\051\106\066\114\118\056\055\083\054\070\084\088\097\077\081\107\099\090\057\065\122";"\052\069\108\071\078\115\061\061","\057\067\083\101\113\122\066\072\111\103\082\071\078\050\065\081\083\081\113\061","\049\089\077\104\050\107\066\071\097\115\061\061","\070\075\056\114\104\115\090\081\047\085\112\070\098\102\054\076\054\049\052\113\081\121\061\061","\102\108\089\061";"\097\090\079\113\120\101\083\107\098\082\112\061","\047\121\076\105\098\050\054\085\088\078\089\061","\057\122\052\080\083\104\073\071\079\100\066\099\082\074\109\120\057\050\079\061";"\103\118\113\097\079\105\065\101\057\069\065\108\110\074\057\087\052\085\061\061";"\110\103\049\067\078\121\061\061","\081\052\087\103\077\090\084\086\069\053\081\057\068\106\078\086\122\067\116\104\055\077\102\071\114\122\112\120\109\101\115\057\080\075\081\086\083\053\068\120\065\056\052\107\105\050\118\101";"\106\098\117\114\071\120\098\085\054\104\043\080","\083\117\077\052\075\106\110\089\090\122\071\100\106\068\054\056\111\090\104\109\113\057\082\117\082\090\088\043\122\084\115\081\050\098\118\070\100\069\089\122\087\100\108\081\047\067\112\056\110\086\084\118\097\109\107\118\109\072\089\061","\083\104\056\071\110\097\065\049\065\097\074\080\072\081\109\079\057\073\061\061";"\090\087\118\070\043\117\113\061","\083\074\106\100\110\083\068\109\052\057\066\101\110\104\073\068","\116\121\068\118\114\088\072\074\121\108\089\070\057\105\081\047\103\118\100\079\083\101\053\084\048\057\119\056\049\103\117\071\071\107\074\085\074\049\090\050\109\074\097\085\103\119\076\043\076\055\121\043\084\119\074\090\066\077\097\082\087\120\051\073\069\113\050\117\065\112\052\101\101\080\047\053\085\043\111\079\082\049\113\061";"\122\098\070\088\070\067\077\068\108\100\101\081\110\072\114\101\075\047\121\052\078\069\057\103\053\071\084\069\110\047\108\069\082\110\085\051\067\104\056\111\109\116\048\121\097\119\112\061";"\052\101\109\066\052\105\057\122\111\103\068\074";"\048\067\076\066\078\122\110\074\107\085\061\061","\089\054\101\075\119\072\105\072\102\085\061\061";"\121\103\110\084\121\100\057\097\052\105\076\087";"\056\071\081\080\088\055\069\071\074\043\109\076\081\121\070\122\051\089\071\085\101\115\070\070\072\116\043\087\098\067\115\050\068\055\068\085\070\078\069\107\085\106\107\050\115\054\111\120\051\087\076\066\117\073\115\061";"\079\108\109\103\050\069\067\068\107\104\049\056\079\057\098\103";"\049\076\075\086\081\097\080\122\056\052\072\076\086\073\047\047\052\114\108\048\069\117\101\077\048\074\069\053\051\065\114\052\103\120\072\116\067\072\100\065\049\113\108\053\065\102\106\102\057\048\101\073\084\072\119\075\114\057\076\099\056\052\053\085\057\066\075\054\115\099\101\102\114\080\088\100","\102\098\052\088\081\073\104\080","\083\069\057\097\050\105\074\043\082\122\108\071\107\121\061\061";"\078\105\076\080\065\118\106\097\082\122\074\087\065\073\061\061";"\080\111\077\110\051\117\074\088\083\085\061\061";"\078\081\077\061","\109\073\048\053\108\072\090\117\066\109\077\073\116\115\084\061";"\065\069\108\056\065\121\061\061";"\121\057\110\105\052\118\108\119\052\118\108\111\114\104\109\056\052\105\051\061";"\112\089\081\109\100\085\061\061";"\085\088\057\121\101\053\056\105\113\070\108\099\069\100\080\078\099\122\089\049\057\043\111\099\120\113\057\080\081\068\077\072\049\051\070\085\081\048\076\068\057\116\122\100\098\116\055\069\081\109\104\084\068\048\043\080\070\100\115\083\101\111\080\054\098\071\080\083\056\070\108\110\114\116\043\072\071\113\089\073\089\057\100\113\097\054\117\082\090\047\105\106\109\103\081\110\118\051\097\087\088\056\103\099\099\047\104\076\075\081\089\114";"\066\071\105\071\068\100\113\072\055\112\051\061";"\052\105\052\114\052\081\098\083\111\069\065\075\082\083\097\071\121\084\079\061","\065\057\117\103\099\055\097\098\070\065\047\099\077\087\087\047\115\118\083\052\081\116\086\117\055\054\057\070\107\078\068\088\066\114\067\052\105\087\047\115\068\114\069\101\116\043\117\075\054\053\102\113\111\117\073\084\104\109\048\081\077\052\071\099\085\084\083\070\110\057\086\102\104\065\109\114\083\055\051\061","\047\075\055\101","\082\105\106\080\078\105\073\061";"\113\069\080\080\082\115\061\061";"\052\105\108\043\078\105\083\061","\114\084\109\114\072\083\109\071\057\108\108\048\114\048\052\043\082\073\061\061","\085\076\112\103\067\119\098\074\075\088\090\074\070\121\078\116\114\074\056\114\081\051\106\112\090\074\084\067\072\116\119\100\054\076\078\051\057\073\078\099\069\086\082\069\099\052\051\067\105\090\068\054\117\078\103\081\111\065\122\066\069\109\108\070\110\098\054\069\065\074\083\104\119\116\053\055\120\068\116\107\067\071\069\087\078\106\085\098\065\068\102\055\047\089\050\068\113\110\087\106\054\113\088\083\114\121\061\061";"\052\083\082\053\072\050\057\104\057\100\066\097\082\105\110\109\083\067\077\061";"\120\088\056\087\080\054\079\065\102\085\061\061";"\068\112\088\048\089\067\055\052\066\107\109\113\083\078\083\112\057\120\068\109\088\067\049\049\065\098\111\089\107\089\054\089\082\120\106\049\102\112\083\061","\082\069\057\097\113\069\068\066\082\105\109\075\113\048\109\084";"\121\100\057\066\078\105\110\109\078\100\110\074\082\122\065\080\113\069\057\050\065\103\106\097\111\103\076\087","\052\103\049\073\113\103\106\086","\052\105\076\087\052\103\067\043\065\048\077\061","\074\073\057\122\043\076\097\061","\088\079\108\118\113\097\073\097\105\084\115\061";"\090\088\053\120\120\101\072\120\103\101\103\077\108\117\069\097\076\115\102\119\065\074\043\085\090\100\108\084\103\079\110\070\098\083\075\113\081\121\049\119\116\081\066\081\065\117\107\066\119\100\057\051\099\085\061\061";"\070\055\109\057\070\077\047\100\083\072\047\067\076\099\117\061","\119\070\109\075\070\112\104\074\113\066\106\043\084\071\072\053\070\085\068\052\101\057\053\049\070\053\056\105\081\071\065\051\043\089\077\099\050\105\066\080\055\067\081\113\105\109\113\061","\103\067\052\066\111\101\050\047\114\048\079\099\067\101\085\080\048\080\071\109\071\121\121\054\097\054\078\071\072\101\083\110\102\053\069\106\109\066\108\108\087\051\109\052\119\082\087\051\108\049\116\085\081\077\086\051\078\075\043\105\115\056\114\086\056\085\061\061","\087\070\074\051\120\073\099\102\051\083\043\049\119\086\082\069\106\086\084\070\083\050\074\066\054\098\101\117\055\053\076\101\048\065\079\054\078\080\073\119\116\057\122\110\056\101\104\100\079\117\107\074\074\070\089\085","\103\069\118\086\065\121\061\061","\078\048\052\079\065\053\074\112\082\083\108\065\110\105\109\071","\069\103\052\078\074\057\082\061","\112\115\121\109\052\067\083\061";"\054\122\054\070\105\098\103\085";"\049\084\055\056\087\082\118\076\122\115\061\061","\068\072\105\104\052\102\075\103\110\075\119\082\115\105\117\072\082\119\049\088\080\102\102\083\051\057\112\061";"\097\083\067\055\110\108\086\078\052\048\047\049\120\111\086\048\082\109\080\076\051\106\055\072\097\056\065\067\048\071\078\071\050\067\108\120\104\116\080\073\084\055\074\087\097\081\121\073\049\107\069\109\117\116\107\118\089\053\047\054\055\048\107\099\121\113\117\056\053\047\066\052\072\115\053\076\100\111\084\067\075\052\071\080";"\073\098\117\115\069\075\119\080\102\085\061\061";"\076\117\077\113\078\097\090\087\069\113\056\104\109\103\113\104\088\087\107\111\070\076\109\065\082\076\076\122\047\106\082\069\109\100\088\106\101\102\078\115\055\073\097\098\089\074\085\097\075\053\119\077\074\108\111\100\080\116\122\068\069\048\106\113\072\122\086\117\104\048\082\047\115\101\117\078\065\071\057\115\118\070\053\054\089\050\112\052\115\070\051\084\078\074\065\117\054\085\061\061","\106\048\079\076\073\043\113\081\118\110\108\118\085\122\109\086\107\114\102\102\066\121\085\087\117\081\100\109\114\115\099\110\104\055\075\110\085\086\069\078";"\052\103\052\120\052\105\080\100\079\122\057\072\072\104\056\051\107\085\061\061","\065\052\055\048\085\106\083\078";"\055\052\068\113\071\102\077\090\102\056\083\081\116\085\088\089\057\111\115\115\110\121\107\071\065\109\085\061","\078\103\108\097\111\085\061\061","\109\100\102\114\074\074\076\112\070\119\089\061","\083\103\074\053\110\050\052\051\052\084\121\049\103\105\110\074\110\115\061\061","\113\054\048\082\098\047\077\080\080\085\061\061","\072\084\089\107\082\102\069\067\075\109\052\081\080\075\099\081\043\076\104\061";"\111\075\074\088\088\113\108\101\053\052\078\047\110\085\099\067\053\055\051\053\119\078\074\052\114\104\075\113\080\086\101\117\065\082\086\097\084\112\109\117\080\107\066\084\057\113\101\055\043\080\053\047\043\054\071\070\116\119\100\105\074\080\068\075\100\082\056\073\078\115\061\061";"\078\072\118\089\104\056\065\090";"\122\086\067\081\065\121\061\061","\057\122\067\099\110\084\057\043\083\069\108\104\106\100\098\114";"\089\068\070\107\080\107\112\117\110\103\048\104\071\051\113\108\073\121\084\075\118\085\078\117\081\070\072\086\057\
+-- WAVE CLIENT 🌊 
+-- MACRO MODULE (Credits to @New_qwertyui)
+
+--[[ Services ]]
+local UserInputService = game:GetService("UserInputService")
+local VirtualInputManager = game:GetService("VirtualInputManager") -- Needed for click simulation
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+local PlayerGui = LocalPlayer and LocalPlayer:WaitForChild("PlayerGui")
+local RunService = game:GetService("RunService") -- Not used in provided snippet, but good practice to declare if potentially needed
+
+--[[ Dependency Check & Loading ]]
+local FluentSuccess, Fluent = pcall(function()
+    local raw = game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua", true)
+    return loadstring(raw)()
+end)
+
+local SaveMgrSuccess, SaveManager = pcall(function()
+    local raw = game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua", true)
+    return loadstring(raw)()
+end)
+
+local InterfaceMgrSuccess, InterfaceManager = pcall(function()
+    local raw = game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua", true)
+    return loadstring(raw)()
+end)
+
+-- Verify successful loading and type checking
+if not FluentSuccess then
+    warn("[Wave Client] Failed to load Fluent UI Library. Check the URL or your connection.")
+    warn("Error:", Fluent or "Unknown loading error")
+    return
+end
+if type(Fluent) ~= "table" then
+     warn("[Wave Client] Fluent loaded but is not the expected type:", type(Fluent))
+     warn("Returned value:", Fluent)
+     return
+end
+print("[Wave Client] Fluent Library Loaded.")
+
+-- Check and handle addon loading
+if not SaveMgrSuccess then warn("[Wave Client] Failed to load Fluent SaveManager Addon. Error:", SaveManager or "Unknown loading error"); SaveManager = nil
+elseif type(SaveManager) ~= "table" then warn("[Wave Client] SaveManager loaded but is not the expected type:", type(SaveManager)); SaveManager = nil
+else print("[Wave Client] SaveManager Addon Loaded.") end
+
+if not InterfaceMgrSuccess then warn("[Wave Client] Failed to load Fluent InterfaceManager Addon. Error:", InterfaceManager or "Unknown loading error"); InterfaceManager = nil
+elseif type(InterfaceManager) ~= "table" then warn("[Wave Client] InterfaceManager loaded but is not the expected type:", type(InterfaceManager)); InterfaceManager = nil
+else print("[Wave Client] InterfaceManager Addon Loaded.") end
+
+-- Check for necessary components
+if not PlayerGui then warn("[Wave Client] PlayerGui not found, Macro button creation may fail.") end
+if not VirtualInputManager then warn("[Wave Client] VirtualInputManager not found. Macro clicking WILL NOT work.") end
+
+
+--[[ UI Creation ]]
+local windowTitle = "🌊 Wave Client " .. (Fluent.Version or "v?")
+local Window = Fluent:CreateWindow({
+    Title = windowTitle,
+    SubTitle = "Fluent Edition",
+    TabWidth = 160,
+    Size = UDim2.fromOffset(580, 500), -- Adjusted height
+    Acrylic = true,
+    Theme = "Dark",
+    MinimizeKey = Enum.KeyCode.RightControl
+})
+
+local Options = Fluent.Options -- Centralized options table
+
+--[[ Tabs Definition ]]
+local Tabs = {
+    Main = Window:AddTab({ Title = "Main", Icon = "play" }),
+    Macro = Window:AddTab({ Title = "Macro", Icon = "mouse-pointer-click" }),
+    Extras = Window:AddTab({ Title = "Extras", Icon = "sliders-horizontal" }),
+    Settings = Window:AddTab({ Title = "Settings", Icon = "settings" })
+}
+
+--[[ Helper Functions ]]
+local function Notify(title, content, duration)
+    if not Fluent or not Fluent.Notify then return end
+    Fluent:Notify({ Title = title, Content = content, Duration = duration or 3 })
+end
+
+-- File system functions (minified, kept for potential future use but unused by modified buttons)
+local function DeleteFolder(folderName) if typeof(isfolder)~="function" or typeof(delfolder)~="function" then return false,"fs utils not available" end; local s,e=pcall(function() if isfolder(folderName) then delfolder(folderName) end end); return s,e end
+local function EnsureProfileFolder() if typeof(isfolder)~="function" or typeof(makefolder)~="function" then return false,"fs utils not available" end; local s,e=pcall(function() if not isfolder("newvape") then makefolder("newvape") end; if not isfolder("newvape/profiles") then makefolder("newvape/profiles") end end); return s,e end
+
+--[[ Main Tab Content ]]
+Tabs.Main:AddButton({
+    Title = "Launch Wave Client Core",
+    Description = "Downloads and executes the main Wave Client script. (Temporarily Disabled)", -- Updated description
+    Callback = function()
+        -- *** MODIFIED: Replaced functionality with notification ***
+        Notify("Temporarily Disabled", "The 'Launch Core' feature is currently under rewrite. Please check back later.", 5)
+        warn("[Wave Client] 'Launch Core' button clicked, but feature is disabled for rewrite.")
+    end
+})
+
+Tabs.Main:AddButton({
+    Title = "Download/Update Profiles",
+    Description = "Downloads the latest profile configurations. (Temporarily Disabled)", -- Updated description
+    Callback = function()
+        -- *** MODIFIED: Replaced functionality with notification ***
+        Notify("Temporarily Disabled", "The 'Download Profiles' feature is currently under rewrite. Please check back later.", 5)
+        warn("[Wave Client] 'Download Profiles' button clicked, but feature is disabled for rewrite.")
+    end
+})
+
+Tabs.Main:AddButton({
+    Title = "Join Discord Server",
+    Description = "Click to copy the invite link.",
+    Callback = function()
+        local invite = "https://discord.gg/q2fwB2KMPX"
+        if typeof(setclipboard) == "function" then
+            local success, err = pcall(setclipboard, invite)
+            if success then Notify("Discord", "Invite copied!", 4)
+            else Notify("Error", "Failed copy.", 3); warn("[WC] setclipboard err:", err); Notify("Discord Invite", invite, 10) end
+        else Notify("Discord Invite", invite, 10); warn("[WC] setclipboard n/a. Link:", invite) end
+    end
+})
+
+
+--[[ Macro Tab Content & Logic ]] -- (Circular buttons, logic mostly unchanged)
+local macroScreenGui = nil
+local macroInstructionLabel = nil
+local currentMacroAddState = 0
+local tempTogglePos = nil
+local tempMacroName = ""
+local activeMacroButtons = {}
+
+local function makeDraggable(guiObject)
+    local dragging, dragInput, dragStart, startPos = false, nil, nil, nil
+    if not guiObject or not guiObject:IsA("GuiObject") then return end
+    guiObject.InputBegan:Connect(function(input)
+        if (not Window.Visible or currentMacroAddState == 0) and (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then
+            local mouseLocation = UserInputService:GetMouseLocation()
+            local guiPos = guiObject.AbsolutePosition; local guiSize = guiObject.AbsoluteSize
+            if mouseLocation.X >= guiPos.X and mouseLocation.X <= guiPos.X + guiSize.X and mouseLocation.Y >= guiPos.Y and mouseLocation.Y <= guiPos.Y + guiSize.Y then
+                dragging = true; dragStart = input.Position; startPos = guiObject.Position
+                input.Changed:Connect(function() if input.UserInputState == Enum.UserInputState.End then dragging = false end end)
+            end
+        end
+    end)
+    guiObject.InputChanged:Connect(function(input) if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then dragInput = input end end)
+    UserInputService.InputChanged:Connect(function(input)
+        if input == dragInput and dragging then
+            local delta = input.Position - dragStart
+            local screen_size = (macroScreenGui and macroScreenGui.AbsoluteSize) or Vector2.new(10000, 10000); local button_size = guiObject.AbsoluteSize
+            local newPos = UDim2.new(startPos.X.Scale, math.clamp(startPos.X.Offset + delta.X, 0, screen_size.X - button_size.X), startPos.Y.Scale, math.clamp(startPos.Y.Offset + delta.Y, 0, screen_size.Y - button_size.Y))
+            guiObject.Position = newPos
+        end
+    end)
+    guiObject.Selectable = true; guiObject.Active = true
+end
+local function showInstruction(text)
+    if not PlayerGui then return end
+    if not macroInstructionLabel or not macroInstructionLabel.Parent then macroInstructionLabel=Instance.new("TextLabel",PlayerGui);macroInstructionLabel.Name="WaveClient_MacroInstruction";macroInstructionLabel.Size=UDim2.new(1,0,0,50);macroInstructionLabel.Position=UDim2.new(0,0,0,0);macroInstructionLabel.BackgroundColor3=Color3.fromRGB(0,0,0);macroInstructionLabel.BackgroundTransparency=0.3;macroInstructionLabel.TextColor3=Color3.fromRGB(255,255,0);macroInstructionLabel.Font=Enum.Font.SourceSansBold;macroInstructionLabel.TextSize=20;macroInstructionLabel.TextWrapped=true;macroInstructionLabel.TextXAlignment=Enum.TextXAlignment.Center;macroInstructionLabel.TextYAlignment=Enum.TextYAlignment.Center;macroInstructionLabel.ZIndex=10 end
+    macroInstructionLabel.Text = text; macroInstructionLabel.Visible = true
+end
+local function hideInstruction() if macroInstructionLabel then macroInstructionLabel.Visible = false end end
+local function addMacroToggleButton(macroName, clickPositionVec2, togglePositionVec2)
+    if not PlayerGui then Notify("Macro Error", "No PlayerGui.", 5); return end
+    if not VirtualInputManager then Notify("Macro Error", "No VIM.", 5); return end
+    if not macroScreenGui or not macroScreenGui.Parent then macroScreenGui = Instance.new("ScreenGui", PlayerGui); macroScreenGui.Name = "WaveClient_MacroToggles"; macroScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling; macroScreenGui.ResetOnSpawn = false end
+    local mouseEnterState=false; local toggleButton = Instance.new("TextButton",macroScreenGui); toggleButton.Name=macroName.."_Toggle"; toggleButton.Size=UDim2.fromOffset(50,50); toggleButton.Position=UDim2.fromOffset(togglePositionVec2.X,togglePositionVec2.Y); toggleButton.AnchorPoint=Vector2.new(0.5,0.5); toggleButton.BackgroundColor3=Color3.fromRGB(50,50,50); toggleButton.BorderSizePixel=0; toggleButton.TextColor3=Color3.fromRGB(255,255,255); toggleButton.Text=macroName; toggleButton.TextSize=10; toggleButton.TextWrapped=true; toggleButton.AutoButtonColor=false; toggleButton.ClipsDescendants=true; local uiCorner=Instance.new("UICorner",toggleButton); uiCorner.CornerRadius=UDim.new(0.5,0)
+    local macroData = {button = toggleButton, clickPos = clickPositionVec2, state = false, clickRoutine = nil}
+    table.insert(activeMacroButtons, macroData)
+    local function stopClicking() macroData.state = false; toggleButton.BackgroundColor3 = Color3.fromRGB(50,50,50); if macroData.clickRoutine then task.cancel(macroData.clickRoutine); macroData.clickRoutine = nil end end
+    local function startClicking(mode)
+        if macroData.clickRoutine then return end
+        macroData.clickRoutine = task.spawn(function()
+            local cps=Options.MacroCPS and Options.MacroCPS.Value or 10; local waitTime=1/math.max(1,cps); local clickX,clickY=clickPositionVec2.X,clickPositionVec2.Y
+            local function doClick() if VirtualInputManager then local s1,e1=pcall(VirtualInputManager.SendMouseButtonEvent,VirtualInputManager,clickX,clickY,0,true,game,1); task.wait(0.01); local s2,e2=pcall(VirtualInputManager.SendMouseButtonEvent,VirtualInputManager,clickX,clickY,0,false,game,1); if not s1 then warn("[Macro] Click Down Err:",e1) end; if not s2 then warn("[Macro] Click Up Err:",e2) end; return s1 and s2 else warn("[Macro] VIM lost!"); stopClicking(); return false end end
+            if mode=="Toggle" then macroData.state=true; toggleButton.BackgroundColor3=Color3.fromRGB(0,180,0); while macroData.state do if not doClick() then break end; task.wait(waitTime) end; if not macroData.state then toggleButton.BackgroundColor3=Color3.fromRGB(50,50,50) end
+            elseif mode=="Repeat While Holding" then toggleButton.BackgroundColor3=Color3.fromRGB(0,180,0); while mouseEnterState do if not doClick() then break end; task.wait(waitTime) end; toggleButton.BackgroundColor3=Color3.fromRGB(50,50,50)
+            elseif mode=="No Repeat" then toggleButton.BackgroundColor3=Color3.fromRGB(0,180,0); doClick(); task.wait(0.1); toggleButton.BackgroundColor3=Color3.fromRGB(50,50,50) end
+            macroData.clickRoutine = nil
+        end)
+    end
+    toggleButton.MouseButton1Click:Connect(function() if currentMacroAddState~=0 then return end; local mode=Options.MacroMode and Options.MacroMode.Value or "Toggle"; if mode=="Toggle" then if macroData.state then stopClicking() else startClicking("Toggle") end elseif mode=="No Repeat" and not macroData.clickRoutine then startClicking("No Repeat") end end)
+    toggleButton.MouseEnter:Connect(function() if currentMacroAddState~=0 then return end; mouseEnterState=true; local mode=Options.MacroMode and Options.MacroMode.Value or "Toggle"; if mode=="Repeat While Holding" then startClicking("Repeat While Holding") end end)
+    toggleButton.MouseLeave:Connect(function() if currentMacroAddState~=0 then return end; mouseEnterState=false; local mode=Options.MacroMode and Options.MacroMode.Value or "Toggle"; if mode=="Repeat While Holding" then toggleButton.BackgroundColor3=Color3.fromRGB(50,50,50); if macroData.clickRoutine then task.cancel(macroData.clickRoutine); macroData.clickRoutine=nil end end end)
+    makeDraggable(toggleButton)
+    toggleButton.Destroying:Connect(function() stopClicking(); for i,data in ipairs(activeMacroButtons) do if data.button==toggleButton then table.remove(activeMacroButtons,i); break end end end)
+    local function updateVisibility() toggleButton.Visible = Options.ShowMacroPositions and Options.ShowMacroPositions.Value or false end
+    if Options.ShowMacroPositions then Options.ShowMacroPositions:OnChanged(updateVisibility); updateVisibility() else toggleButton.Visible = true end
+end
+Tabs.Macro:AddParagraph({Title="Macro Setup",Content="1. Set Name, CPS, Mode.\n2. Click 'Add Macro'.\n3. Click screen for toggle position.\n4. Click screen for click position."})
+Tabs.Macro:AddInput("MacroName", {Title="Macro Name", Placeholder="E.g., AutoFarm", Default=""});
+Tabs.Macro:AddSlider("MacroCPS", {Title="Clicks Per Second (CPS)", Min=1, Max=100, Default=10, Rounding=0});
+Tabs.Macro:AddDropdown("MacroMode", {Title="Macro Mode", Values={"Toggle", "Repeat While Holding", "No Repeat"}, Default="Toggle"});
+local showMacrosToggle = Tabs.Macro:AddToggle("ShowMacroPositions", {Title="Show Macro Buttons", Default=true})
+showMacrosToggle:OnChanged(function(value) if macroScreenGui then for _,c in ipairs(macroScreenGui:GetChildren()) do if c:IsA("GuiButton") then c.Visible=value end end end; if currentMacroAddState~=0 and not value then hideInstruction() elseif currentMacroAddState~=0 and value then if currentMacroAddState==1 then showInstruction("Click where you want the Macro TOGGLE button.") elseif currentMacroAddState==2 then showInstruction("Click where the Macro should CLICK.") end end end)
+Tabs.Macro:AddButton({Title="Add New Macro", Description="Starts position selection.", Callback=function() tempMacroName = Options.MacroName and Options.MacroName.Value or ""; if not tempMacroName or tempMacroName:match("^%s*$") then Notify("Macro Error","Enter valid name.",4); return end; if currentMacroAddState~=0 then Notify("Macro Info","Already adding.",4); return end; if not VirtualInputManager then Notify("Macro Error","VIM not available.",5); return end; currentMacroAddState=1; Window:Minimize(); showInstruction("Click where you want the Macro TOGGLE button.") end })
+Tabs.Macro:AddButton({Title="Reset All Macros", Description="Removes all macro buttons.", Callback=function() if #activeMacroButtons==0 then Notify("Macro Info","No macros to reset.",3); return end; Window:Dialog({Title="Confirm Reset",Content="Remove ALL macro buttons?", Buttons={{Title="Yes, Reset",Callback=function() for i=#activeMacroButtons,1,-1 do local d=activeMacroButtons[i]; if d and d.button and d.button.Parent then d.button:Destroy() else table.remove(activeMacroButtons,i) end end; Notify("Macro Reset","All toggles removed.",4) end},{Title="Cancel"}})} end)
+Tabs.Macro:AddButton({Title="Cancel Add Macro", Description="Cancel current placement.", Callback=function() if currentMacroAddState==0 then Notify("Macro Info","Not adding.",3); return end; currentMacroAddState=0; tempTogglePos=nil; tempMacroName=""; hideInstruction(); Window:Appear(); Notify("Macro","Placement cancelled.",3) end })
+UserInputService.InputBegan:Connect(function(input, gameProcessedEvent) if gameProcessedEvent or currentMacroAddState==0 then return end; if input.UserInputType==Enum.UserInputType.MouseButton1 or input.UserInputType==Enum.UserInputType.Touch then local clickPos=input.Position; if currentMacroAddState==1 then tempTogglePos=clickPos; currentMacroAddState=2; showInstruction("Click where the Macro should CLICK.") elseif currentMacroAddState==2 then local finalClickPos=clickPos; local finalTogglePos=tempTogglePos; local finalMacroName=tempMacroName; currentMacroAddState=0; tempTogglePos=nil; tempMacroName=""; hideInstruction(); Window:Appear(); addMacroToggleButton(finalMacroName,finalClickPos,finalTogglePos); Notify("Macro","'"..finalMacroName.."' created!",4) end elseif input.UserInputType==Enum.UserInputType.MouseButton2 or input.KeyCode==Enum.KeyCode.Escape then currentMacroAddState=0; tempTogglePos=nil; tempMacroName=""; hideInstruction(); Window:Appear(); Notify("Macro","Placement cancelled.",3) end end)
+
+
+--[[ Extras Tab Content ]]
+Tabs.Extras:AddSlider("FPSCap", {
+    Title = "FPS Cap", Description = "Adjust the maximum frames per second.", Min = 30, Max = 240, Default = 60, Rounding = 0,
+    Callback = function(value)
+        if typeof(setfpscap) == "function" then
+            local success, err = pcall(setfpscap, value)
+            if success then Notify("FPS Cap Set", "FPS cap is now " .. value, 3)
+            else Notify("Error", "Failed set FPS cap.", 3); warn("[WC] setfpscap error:", err) end
+        else Notify("Error", "'setfpscap' n/a.", 4); warn("[WC] setfpscap function not found.") end
+    end
+})
+
+
+--[[ Addons Configuration ]] -- (Unchanged)
+if SaveManager and InterfaceManager then SaveManager:SetLibrary(Fluent); InterfaceManager:SetLibrary(Fluent); SaveManager:SetFolder("WaveClient"); InterfaceManager:SetFolder("WaveClient"); SaveManager:IgnoreThemeSettings(); InterfaceManager:BuildInterfaceSection(Tabs.Settings); SaveManager:BuildConfigSection(Tabs.Settings); print("[WC] Save/Interface Mgrs configured.")
+elseif SaveManager then warn("[WC] InterfaceMgr failed load, Settings incomplete."); SaveManager:SetLibrary(Fluent); SaveManager:SetFolder("WaveClient"); SaveManager:IgnoreThemeSettings(); SaveManager:BuildConfigSection(Tabs.Settings); print("[WC] SaveMgr configured (InterfaceMgr missing).")
+else warn("[WC] SaveMgr/InterfaceMgr failed load. Config saving disabled."); if Tabs.Settings then Tabs.Settings:AddParagraph({Title="Load Error",Content="Save/Interface Mgr failed load. Config disabled."}) end end
+
+
+--[[ Finalization ]] -- (Unchanged)
+Window:SelectTab(1)
+if SaveManager then local s,e=pcall(function()SaveManager:LoadAutoloadConfig()end); if s then print("[WC] Autoload config loaded.") else warn("[WC] Failed load autoload config:",e);Notify("Config Error","Failed load saved settings.",4) end else print("[WC] Skipping config load (SaveMgr n/a).") end
+Notify("Wave Client","UI Loaded Successfully!",5)
+task.wait(1); if Options and Options.FPSCap and Options.FPSCap.Value and typeof(setfpscap)=="function" then local c=Options.FPSCap.Value; local s,e=pcall(setfpscap,c); if s then print("[WC] Applied saved FPS Cap:",c) else warn("[WC] Failed apply saved FPS cap:",e) end end
+if Options.ShowMacroPositions then task.wait(0.1); if macroScreenGui then for _,c in ipairs(macroScreenGui:GetChildren()) do if c:IsA("GuiButton") then c.Visible=Options.ShowMacroPositions.Value end end end end

@@ -1,1 +1,353 @@
---[[ v1.0.0 https://wearedevs.net/obfuscator ]] return(function(...)local X={"\066\116\105\090\090\114\084\055";"\113\105\106\054\055\081\053\050\066\111\081\102\120\077\070\079\084\065\106\073\116\068\102\115\102\071\043\049\047\074\051\086\077\103\102\084\050\105\061\061","\121\067\075\086\107\080\074\118","\054\105\057\087\122\088\090\082\098\080\089\101\076\072\081\101\119\086\061\061";"\066\118\068\070\056\047\084\074\070\118\068\043\080\051\109\061";"\052\047\081\082\118\057\074\100\052\106\068\071\116\065\100\055\066\097\061\061";"\111\084\079\081\116\043\085\119\101\112\100\119\099\086\073\077","\084\057\070\119\075\122\069\103\107\057\110\066\071\049\099\061","\072\090\122\056\048\083\069\084\079\100\112\086\116\117\109\070\051\067\061\061";"\111\070\097\106\118\057\107\043\111\049\119\086\097\079\107\078";"\056\117\055\067\112\112\118\082";"\049\088\043\120\089\086\061\061";"\111\089\076\100\043\097\061\061","\054\090\072\049\067\053\108\049","\111\097\055\100\104\088\090\108\099\086\061\061";"\121\071\053\104\050\072\043\090\055\077\085\085\088\105\061\061";"\071\050\105\072\055\068\098\061";"\057\086\104\118\110\070\102\109\113\056\052\068\048\049\121\105\090\102\051\061","\071\121\116\073";"\083\102\114\108\081\089\120\075\068\054\051\061","\047\047\066\097\116\057\090\109\097\050\074\103\073\052\100\078\082\097\061\061","\101\073\075\069\054\068\082\050\121\055\053\055\120\109\098\070\098\099\105\051\113\117\065\053\111\081\090\075\113\105\082\114\114\066\053\103\105\065\056\085\074\057\111\090\054\109\070\115\099\051\105\061";"\051\074\071\084\118\118\051\072","\074\116\071\120\105\108\103\117\106\053\105\116\088\051\086\071\066\089\086\061";"\104\073\116\071\043\084\100\101\105\053\074\118";"\068\090\117\043\077\098\066\110\108\104\047\109\078\119\070\105\076\116\098\117\080\097\061\061";"\066\079\068\098\052\065\069\076\052\052\057\056\052\098\057\075\114\088\119\061","\115\088\104\049\054\070\088\076\051\068\111\051";"\085\112\090\114\056\115\084\043","\111\068\121\067\117\056\103\115\070\069\069\051\113\097\055\116\087\103\111\113\071\078\081\070","\077\117\049\112\090\071\075\061","\077\055\089\104\048\083\105\076\089\113\075\111\057\069\087\106\087\100\106\110\097\076\090\107\057\119\114\103\098\066\086\061","\116\049\068\071\048\055\069\055\047\080\121\107\119\088\100\079\050\097\061\061","\115\099\099\053\055\099\122\082\054\098\077\077\097\104\050\074\065\116\084\078\088\067\061\061";"\048\050\069\081\114\050\121\069\066\049\121\072\082\068\069\055";"\088\082\100\121\085\085\111\112\099\114\097\061";"\074\047\078\121\101\067\066\056\072\121\087\110\090\115\088\122\105\083\070\088","\113\105\061\061","\118\117\098\061";"\077\122\066\053\049\108\081\116\071\105\061\061";"\070\067\097\071\073\055\089\090\111\086\101\107\051\090\078\052\115\105\068\074";"\069\065\050\081\078\049\081\085\047\057\100\083\097\105\061\061";"\116\043\081\106\111\098\066\100\066\067\061\061";"\090\097\061\061","\116\109\068\065\103\065\084\080";"\069\088\050\106\078\065\050\080\066\070\089\101\078\053\082\080\069\053\097\061";"\103\084\084\118\067\068\082\066\107\098\109\084\102\086\061\061";"\079\075\076\057\089\105\061\061";"\084\072\119\103\088\104\113\077\082\103\109\061";"\110\071\085\056\116\108\084\122\071\050\116\087\043\102\098\061";"\047\116\067\113\067\087\073\114\080\118\067\121\077\078\105\061","\120\054\050\053\051\084\114\112\120\047\050\043\097\097\107\122\120\087\100\108\114\086\061\061","\066\043\100\086\069\097\061\061","\076\118\102\118\054\050\082\069\054\067\061\061","\082\104\071\087";"\056\115\084\117\099\089\056\099\049\081\109\061","\111\065\081\104\114\048\112\079","\050\050\054\108\087\078\088\085\047\084\114\082\070\065\107\104\050\117\122\088\119\069\080\097\100\067\061\061";"\049\085\057\048\119\069\066\100\113\116\104\089\055\083\056\055\082\083\050\082\102\090\080\071\052\106\049\050\073\099\087\075\099\070\083\085\082\102\074\122\121\102\122\100\101\047\082\052\082\119\068\067\084\116\120\104\068\082\072\106\076\066\104\097\084\107\100\075\111\066\051\056\119\066\048\089\104\111\107\110\079\081\072\109\106\113\115\106\069\108\076\099\099\110\054\113\107\081\098\061","\098\080\087\048\122\071\080\102\083\057\076\080\112\073\073\101\097\067\061\061";"\079\066\053\116\073\087\113\048\055\105\061\061","\050\098\090\075\048\043\050\080\118\088\086\075\078\057\056\086";"\050\075\101\068\104\111\103\122\078\097\061\061";"\043\082\081\110\067\082\112\071\100\097\061\061","\097\065\121\100\078\053\081\100\097\079\050\106\066\070\089\076","\120\075\053\069\083\107\069\117\057\112\048\050\107\120\043\077\104\111\109\115\084\115\081\086\084\110\073\098\068\067\061\061";"\110\069\112\081\078\067\061\061","\048\056\100\108\101\105\061\061","\118\075\048\089\084\078\052\061";"\113\068\051\072\120\105\061\061","\068\049\077\078\100\111\073\085\122\114\072\086\070\102\119\105\071\120\052\061","\105\119\116\086\100\049\107\086\108\097\061\061","\118\070\050\076";"\098\106\055\120\055\078\078\052";"\079\098\117\115\057\104\050\069\103\097\061\061","\053\100\080\050\108\119\108\066\067\054\076\070\112\088\101\100\122\107\114\070\047\116\080\065\122\052\078\061";"\099\099\083\113\116\098\070\122","\114\088\050\086\111\055\100\051\078\100\069\081\081\079\074\072","\047\053\107\120\111\051\066\097\069\050\121\075\119\050\100\108\048\117\097\061","\048\116\075\103\090\108\067\055\078\118\067\061","\115\043\121\050\089\071\110\065\080\108\099\122\048\105\061\061";"\043\100\054\057\053\120\085\052\053\111\082\101\057\076\111\100\080\106\051\084\081\101\050\108\073\121\074\100\102\083\120\088\047\067\061\061";"\087\057\111\053\076\080\117\069\074\118\057\113\088\081\076\114\111\072\077\054\066\082\101\049\117\090\111\057\082\070\066\070\117\048\078\061","\122\043\068\050\109\065\087\114\075\055\077\097\098\097\061\061","\084\090\050\119\115\080\068\102\106\105\061\061","\056\089\112\047\090\055\080\108\074\079\077\115\102\086\078\071","\083\074\074\081\112\119\109\101\099\053\051\120\113\118\110\106\122\049\105\115\110\121\079\106\081\114\114\117\112\057\067\061";"\101\102\116\114\112\105\061\061","\066\088\068\104\118\105\061\061","\101\088\115\113\119\072\110\076\065\056\067\057\085\119\103\083\072\109\047\053\051\072\048\111\098\052\067\061";"\070\077\078\087\073\067\061\061","\100\054\072\068\047\097\086\122\107\079\102\104\075\086\061\061","\066\099\100\110\078\070\077\106";"\103\086\061\061","\098\099\055\120\054\085\057\054\102\052\052\061";"\112\085\101\112\085\067\090\085";"\078\055\082\084\113\077\112\055\065\087\079\080\083\087\055\098\103\104\109\061";"\118\043\088\053\106\080\072\100\071\056\119\061";"\097\065\121\100\078\053\081\100\081\043\121\122\111\070\081\122\066\088\075\061","\069\053\121\104\118\065\109\061","\048\066\115\071\071\082\099\052\090\079\051\061";"\099\076\047\076\097\105\061\061";"\082\083\069\054\049\097\061\061";"\075\066\080\053\079\056\115\057\100\051\100\102\105\053\071\061","\053\057\089\079\078\086\061\061","\057\073\116\087\113\085\121\107\115\051\108\079\097\102\117\082\090\077\077\080\055\097\061\061","\067\099\119\052\105\067\061\061","\050\051\068\119\069\049\107\101\119\048\121\051\050\049\069\081\066\065\056\061";"\102\057\082\047\050\069\054\073\098\105\050\119\110\069\119\043\122\068\106\061","\098\101\110\077\080\105\061\061";"\085\071\111\116\099\077\081\073\082\052\082\078\101\086\061\061","\049\099\085\074\068\054\119\053\105\067\098\113\086\110\100\122\077\097\076\122\056\084\104\089\073\080\051\085\066\075\084\121\053\057\086\053\107\076\056\061";"\101\076\072\088\054\048\119\113\077\073\082\109\047\119\099\068\107\068\078\061","\054\067\053\072";"\047\049\089\106\114\048\069\112","\119\098\087\117\078\052\090\085\119\053\098\112\073\048\121\071\052\080\098\061","\050\052\081\090\118\097\061\061";"\097\073\074\113\117\109\113\102\067\105\061\061";"\110\053\067\115\051\089\099\061";"\078\088\089\076\078\088\068\106","\103\090\081\067\048\049\047\119\106\106\071\061";"\053\057\089\071\069\048\075\061";"\114\080\074\048\111\050\052\104\081\053\119\112\069\098\107\071";"\077\099\065\083\116\067\061\061","\119\076\048\057\106\084\105\061";"\081\048\112\057\118\097\061\061","\078\052\107\075\081\098\101\112\069\080\081\084\050\048\057\065","\066\070\089\076\066\048\057\083\069\053\109\061";"\111\088\050\106\118\048\050\106\078\053\081\107\078\049\087\100";"\114\069\119\047\085\066\090\117";"\072\083\078\119\082\088\054\057\110\071\072\098\043\121\119\061","\079\065\109\086\068\071\090\121\122\110\119\101","\111\052\087\053\111\052\066\121\082\068\052\112\050\079\066\065","\078\102\120\048\088\110\103\066\068\080\076\090\050\075\089\108\104\065\088\077\118\090\072\081\115\112\115\108\081\097\061\061";"\043\115\073\090\073\114\100\072\055\115\105\103\101\086\067\061";"\101\121\110\054\047\079\067\061","\080\048\076\101\097\086\051\061";"\078\079\100\106\069\097\061\061","\078\051\052\102\052\054\086\109\121\104\072\077","\073\053\083\073\100\049\118\068\108\120\083\051\068\078\107\114\110\055\075\061","\103\055\079\111\069\068\117\048\048\067\120\102\052\043\071\100\101\072\101\103\081\120\068\073\115\122\117\087\098\043\099\061";"\088\068\120\071\082\085\097\112\077\067\054\085\067\053\101\071\052\081\087\122\105\105\061\061","\110\050\106\121\082\050\106\054\114\114\100\119\057\070\050\087\102\112\110\069\115\117\078\107\068\100\097\061","\077\047\081\088\066\052\099\106\119\043\097\104\050\079\052\106\047\053\098\061";"\088\077\111\089\071\065\113\122\066\076\069\073\097\104\098\061","\050\098\085\097\069\080\086\089\107\070\109\065\043\118\055\112\043\110\078\110\065\076\120\102","\081\072\110\067\097\103\073\057\074\067\061\061","\076\071\088\049\090\070\111\086\099\103\114\047\112\111\116\071\115\049\112\056\081\069\066\067\069\076\052\061","\086\049\048\087\087\122\119\061";"\112\098\089\103";"\097\088\089\071\118\065\109\080","\047\077\073\108\098\117\122\106\109\051\051\051\084\114\119\078\071\090\069\080\099\112\104\117\103\067\061\061";"\069\088\057\107\066\070\082\056";"\109\070\047\109\085\097\074\122\081\067\061\061";"\116\053\082\074";"\053\078\077\071\120\054\052\076\083\105\061\061";"\113\119\084\105\101\067\122\077\118\068\050\099\121\051\083\078\086\047\050\103\047\075\067\061","\079\077\073\084\122\114\067\061","\066\070\068\080\114\086\061\061","\053\087\068\072\107\112\109\082\108\047\050\069\086\109\075\071\101\116\050\119\097\097\061\061";"\112\108\117\099\114\109\089\117\116\105\061\061";"\120\099\074\089\097\105\061\061","\101\086\061\061","\070\117\055\082\068\050\098\061";"\114\068\081\086\116\051\121\090\050\100\100\052\050\051\057\082\082\067\061\061","\069\065\082\057\078\105\061\061","\120\086\066\090\066\106\054\118\081\054\101\115\075\052\043\119\114\056\109\043\070\065\081\079\052\054\116\066\052\118\057\104\043\110\069\043\080\048\056\103\047\099\103\069\049\049\068\050\066\068\072\114\115\115\067\077\104\089\074\102\071\121\079\056\047\114\105\087\103\116\067\116\105\121\068\098\072\087\082\102\084\122\079\074\102\079\068\119\076\067\061\061","\118\068\050\070\048\079\050\103\114\043\069\107\118\048\052\112\116\052\106\061","\099\057\110\068\090\049\065\085\085\073\088\118\087\043\117\090\065\086\061\061","\102\120\070\110\119\052\116\067\050\117\075\061";"\066\043\100\086\069\048\089\049","\100\066\056\069\079\055\051\121\122\086\061\061";"\105\104\101\089\099\052\069\078\120\098\121\074\048\089\119\061","\075\105\119\116\051\113\121\082\052\081\120\097\122\055\115\118\076\071\105\098\081\112\122\073\099\067\061\061","\116\100\101\079\104\074\087\077";"\105\049\069\085\117\099\049\114\120\047\047\070\072\055\119\061","\057\102\106\065\098\086\061\061";"\113\099\106\049\089\105\088\078\111\082\054\099\118\099\097\061","\053\057\089\090\118\049\081\100\077\067\061\061","\114\053\052\086\082\106\069\050\111\098\112\120\052\067\061\061";"\116\114\043\057\043\089\081\107\069\086\061\061";"\119\098\112\117\097\049\050\088\082\048\121\071\048\117\082\050";"\052\110\048\075\107\097\061\061","\087\108\049\113\115\121\107\076\074\067\061\061";"\075\122\116\080\079\073\084\113\086\076\116\090\071\056\070\052";"\073\083\105\100\069\084\056\090\073\105\061\061","\119\066\065\114\083\089\089\101\084\074\098\080\069\084\077\056\068\067\061\061","\043\051\067\072\105\101\097\061";"\115\099\097\073\108\047\086\070\083\105\061\061","\048\113\084\084\054\054\086\122\111\113\076\056\055\076\106\120\086\099\120\085\117\067\061\061";"\111\088\050\106\069\079\074\080\078\088\068\086";"\074\055\088\068\043\074\073\117\101\067\061\061","\052\088\083\070\068\087\086\089","\082\109\120\066\087\116\109\061","\116\047\121\078\052\047\069\114\066\057\100\084\050\048\082\103\118\050\051\061";"\118\121\054\054\047\078\052\065\099\107\079\047\076\048\111\114\066\114\098\110\081\113\115\065\079\111\049\115\114\106\065\090\080\097\061\061","\119\057\072\106\084\122\101\097\111\104\105\043\074\097\061\061","\050\106\107\090\048\100\081\075\111\051\078\088\073\048\089\100","\050\043\050\057\082\049\066\050\050\051\087\071\114\098\090\114\118\068\097\061";"\079\047\052\106\047\088\086\048";"\107\120\057\106\122\097\112\112\084\070\118\077\043\050\118\074\055\084\109\097\104\055\076\107\074\084\043\079\088\050\067\089\119\080\117\055\054\065\087\122\074\078\098\075\055\090\088\122\076\066\098\089\102\067\061\061";"\048\070\100\052\097\106\121\053\069\050\121\081\050\106\066\086";"\081\053\078\086\082\065\051\080\119\057\111\106\048\048\050\120";"\111\043\121\090\118\079\097\061","\068\087\066\070\078\055\097\111\115\113\067\112\087\077\072\080\101\116\073\115\051\067\061\061","\053\067\107\053\074\097\061\061";"\097\065\121\100\078\053\081\100\050\070\050\075\066\070\121\122\077\067\061\061","\117\104\089\076\071\098\053\073\053\105\061\061","\073\088\114\087\054\056\065\117\114\097\061\061";"\073\098\071\048\084\050\073\055\051\067\061\061";"\083\086\101\069\106\105\061\061";"\097\117\056\113\069\082\048\066\048\043\048\101\121\070\107\122","\097\115\049\105\056\101\111\111\049\121\106\109\122\084\099\061","\085\086\061\061","\115\084\087\089\104\071\087\070","\050\087\066\117\090\097\061\061";"\099\076\103\086\102\113\047\112\105\113\047\113\071\067\061\061","\073\105\061\061","\114\097\061\061";"\111\106\107\051\078\052\101\070\118\055\107\119\066\043\082\065\111\117\098\061";"\047\067\061\061";"\069\052\121\114\048\049\069\056\069\051\066\053\073\070\069\081\050\086\061\061","\118\090\076\050\082\053\078\061";"\118\105\082\100\103\118\049\070\051\084\090\103\097\113\099\061";"\056\101\069\101\049\097\068\113\088\111\055\056\089\048\087\052","\048\118\051\072\071\072\118\112\107\068\099\061";"\078\052\066\043\050\070\069\075\118\070\087\083\052\051\101\075","\082\070\068\088\073\068\078\065\069\053\090\084\069\049\090\083\082\067\061\061";"\056\120\086\080\077\057\049\053\111\087\086\049\097\055\090\117\068\105\061\061";"\099\056\084\054\073\055\069\107";"\048\108\087\090\122\088\067\054\088\043\101\048\053\057\089\086\081\086\061\061","\097\065\121\100\078\053\081\100\047\070\068\083\069\048\086\061";"\087\078\055\109\103\098\109\061";"\078\088\107\107\111\105\061\061","\118\077\122\105\118\112\068\116";"\076\102\116\051\101\117\076\054\122\073\101\115\049\052\120\072\085\105\061\061","\119\079\052\057\116\054\119\061";"\116\048\114\051\066\047\065\077\119\108\089\084";"\074\071\089\084\099\086\049\114","\066\048\112\086\078\048\082\085","\068\079\068\054\066\088\103\117";"\049\069\119\103\054\087\065\105\075\121\078\075\098\120\120\116\072\081\053\110\076\048\097\114\120\070\111\110\085\057\085\079\090\052\120\080\056\056\048\088\120\053\109\048\050\083\075\061","\067\112\043\070\054\083\121\119\065\088\078\122\119\099\050\048\087\085\102\054\121\085\054\076\071\077\109\061";"\076\101\076\054\071\113\049\111\089\097\061\061";"\050\085\099\078\117\069\090\075\097\080\071\061","\100\089\068\086\051\117\106\081\118\056\089\088";"\084\049\114\116\071\106\076\068\072\115\056\103\056\072\043\118\056\083\089\073\056\105\061\061","\101\107\110\109\076\065\104\074\105\067\097\061","\114\052\105\112\069\051\105\057\119\053\082\106\116\068\066\070\052\048\086\061";"\110\066\099\113\100\066\090\110\053\122\111\121","\099\079\121\081\102\067\054\112\111\055\071\061";"\081\113\056\106\116\111\100\075\119\073\073\104\071\099\047\084\113\097\061\061";"\049\053\088\079","\122\053\057\054\086\110\119\061";"\107\052\076\114\107\116\072\120\122\116\121\110\084\074\079\056\117\067\061\061";"\114\052\067\098";"\069\053\080\053\101\067\061\061","\047\107\055\106\116\118\083\072\076\067\061\061","\104\070\076\078\112\120\115\049";"\047\068\050\050\052\068\121\085\097\100\066\071\048\100\066\078";"\050\088\068\090\066\098\069\122\111\051\082\056\114\048\087\051","\077\097\061\061","\090\068\116\053\089\067\085\066\121\086\061\061";"\105\070\051\108\066\074\076\103\121\077\121\049\057\069\054\109\113\086\061\061";"\118\065\121\121\066\068\052\106\078\106\057\112\050\088\105\065\047\097\061\061","\086\116\106\112\077\089\076\072","\116\079\068\053\082\043\056\057\052\052\066\103\081\070\089\084\082\086\061\061","\085\102\110\056\056\087\067\105\079\090\115\079\110\072\090\122\056\105\119\074\084\066\118\073\049\117\055\074\047\043\082\090\047\076\106\102\055\077\106\050\083\078\083\100\079\048\117\100\073\067\061\061";"\105\088\066\068\052\118\071\065\068\066\065\119\079\075\109\061","\089\067\061\061";"\077\098\065\108\111\107\075\076\111\117\049\080\115\098\100\066\076\069\087\065\069\105\061\061";"\077\079\081\073\047\098\050\119\118\088\050\071\047\049\069\072\111\067\061\061";"\101\085\075\068\102\054\078\070\118\069\082\112\065\097\061\061";"\081\088\050\106\097\088\107\090\118\070\081\104\069\048\075\061","\119\043\097\043\102\111\072\120\077\069\113\073\090\117\118\077\107\120\121\090";"\065\097\048\116\100\071\079\112\103\086\061\061";"\106\118\122\111\051\112\078\084\120\079\072\110\111\116\048\085\079\052\073\054\066\108\069\103\100\087\056\050\077\104\067\099\104\054\103\106\078\103\086\089\057\111\117\088\111\082\116\082\043\049\086\061","\053\102\115\072\082\080\065\097\074\097\061\061","\097\065\121\100\078\053\081\100\050\070\068\083","\043\057\043\077\052\074\048\082\054\069\081\082\099\077\111\110\118\049\098\098\067\121\082\083\047\105\061\061","\085\069\056\084\069\067\061\061","\069\050\056\109\065\076\111\075\048\087\114\076\102\077\117\065\103\090\048\072\114\105\061\061","\119\047\097\106\111\098\121\087\116\088\107\086\097\057\056\104\114\067\061\061";"\047\052\066\119\078\048\066\083\082\070\121\086\119\117\081\106\073\050\119\061";"\101\066\072\055\117\086\061\061";"\051\083\105\072\121\055\085\048\073\070\074\049\076\076\068\066\085\122\068\074\071\097\061\061";"\090\105\103\084\102\086\073\113\054\049\109\061","\072\054\077\057\106\087\052\076\075\053\119\061","\114\048\105\112\069\088\087\053\077\079\069\065\114\098\087\087\050\086\061\061";"\048\109\077\102\116\052\122\089\074\057\067\061","\069\049\087\112\081\080\107\114\078\050\107\069\066\050\050\097\114\048\052\061","\078\111\110\057\070\065\114\049\105\055\117\065\117\083\086\071\112\070\083\056\100\050\097\084\071\074\118\082";"\118\051\102\066\098\108\110\102","\068\108\090\057\079\110\075\061";"\111\113\085\057\047\051\120\074\107\101\106\061";"\086\071\103\106\068\112\079\055\102\088\086\090\111\086\061\061";"\075\110\098\081\066\047\074\048\066\071\099\061";"\075\052\116\088\110\085\083\084\117\071\114\117","\066\068\081\087\066\079\100\057\050\070\081\101\077\053\069\048","\122\047\051\070\077\105\055\073\043\079\055\090\105\068\089\066\076\053\104\120\084\052\099\122\106\054\071\061","\057\090\068\111\109\122\081\103\081\073\056\061";"\072\118\121\085\114\115\083\057","\097\118\102\055\047\106\118\089","\118\048\068\085\069\048\069\122\118\070\081\100\111\105\061\061","";"\080\055\056\113\073\100\112\101\052\102\115\048\087\052\118\110\114\115\106\117\120\079\101\103\076\057\103\110";"\066\068\081\120\077\043\121\065\114\052\057\072\081\100\121\104","\120\105\061\061";"\071\075\112\055\100\0
+-- Load Rayfield Library
+local RayfieldSuccess, RayfieldLib = pcall(function()
+    -- Load Rayfield library code, disable http caching with 'true'
+    return loadstring(game:HttpGet("https://sirius.menu/rayfield", true))()
+end)
+
+-- Check if Rayfield loaded okay
+if not RayfieldSuccess then
+    warn("[Wave Client] Failed to load Rayfield UI Library. Check URL/connection.")
+    warn("Error:", RayfieldLib or "Unknown loading error") -- RayfieldLib holds the error if load failed
+    return
+end
+if type(RayfieldLib) ~= "table" then
+     warn("[Wave Client] Rayfield loaded but isn't a table:", type(RayfieldLib))
+     warn("Returned value:", RayfieldLib)
+     return
+end
+print("[Wave Client] Rayfield Library Loaded.")
+local Rayfield = RayfieldLib -- Use this variable for Rayfield functions
+
+-- Roblox services we need
+local UserInputService = game:GetService("UserInputService")
+local VirtualInputManager = game:GetService("VirtualInputManager")
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+local PlayerGui = LocalPlayer and LocalPlayer:WaitForChild("PlayerGui")
+local RunService = game:GetService("RunService")
+
+-- Need PlayerGui and VIM for macros to work properly
+if not PlayerGui then warn("[Wave Client] PlayerGui not found, Macro button creation may fail.") end
+if not VirtualInputManager then warn("[Wave Client] VirtualInputManager not found. Macro clicking WILL NOT work.") end
+
+-- Create the main Rayfield window
+local Window = Rayfield:CreateWindow({
+    Name = "🌊 Wave Client Rewrite",
+    LoadingTitle = "Wave Client Rewrite Loading...",
+    LoadingSubtitle = "Please Contact Support if this doesnt load properly .gg/milyon",
+    ConfigurationSaving = {
+        Enabled = true,
+        FolderName = "WaveRewrite", -- Settings saved here
+        FileName = "UIConfig"
+    },
+    Discord = {
+        Enabled = true,
+        Invite = "https://discord.gg/q2fwB2KMPX",
+        RememberJoins = true
+    },
+    KeySystem = false,
+    Theme = "Midnight" -- Other themes: "Dark", "Light", "Midnight", etc.
+})
+
+-- Set up the main tabs
+local placeholderIcon = 4483362458 -- Using a placeholder ID, find better ones if needed
+local Tabs = {
+    Main = Window:CreateTab("Main", placeholderIcon),
+    Macro = Window:CreateTab("Macro", placeholderIcon),
+    Extras = Window:CreateTab("Extras", placeholderIcon),
+    Settings = Window:CreateTab("Settings", placeholderIcon)
+}
+
+-- Helper functions
+-- Simple wrapper for Rayfield notifications
+local function Notify(title, content, duration)
+    if Rayfield and Rayfield.Notify then
+        Rayfield:Notify({ Title = title, Content = content, Duration = duration or 3, Actions = {} })
+    else
+        warn("[Notify Error] Rayfield.Notify function missing.")
+    end
+end
+
+-- File system stuff (delete folder, ensure folder exists)
+local function DeleteFolder(folderName)
+    if typeof(isfolder) ~= "function" or typeof(delfolder) ~= "function" then warn("[FileSys] isfolder/delfolder missing."); return false,"fs utils n/a" end
+    local success, err = pcall(function() if isfolder(folderName) then delfolder(folderName) end end)
+    if not success then warn("[FileSys Delete Error]", err) end
+    return success, err
+end
+local function EnsureProfileFolder()
+    if typeof(isfolder) ~= "function" or typeof(makefolder) ~= "function" then warn("[FileSys] isfolder/makefolder missing."); return false,"fs utils n/a" end
+    local success, err = pcall(function() if not isfolder("newvape") then makefolder("newvape") end; if not isfolder("newvape/profiles") then makefolder("newvape/profiles") end end)
+    if not success then warn("[FileSys Ensure Error]", err) end
+    return success, err
+end
+
+-- Main Tab Buttons
+Tabs.Main:CreateButton({
+    Name = "Launch Wave Client Core (Maintenance)",
+    Interact = false, -- Disabled
+    Tooltip = "This feature is temporarily unavailable.",
+    Callback = function()
+        -- TEMP: Disabled for maintenance
+    end
+})
+
+Tabs.Main:CreateButton({
+    Name = "Download/Update Profiles (Maintenance)",
+    Interact = false, -- Disabled
+    Tooltip = "This feature is temporarily unavailable.",
+    Callback = function()
+        -- TEMP: Disabled for maintenance
+    end
+})
+
+Tabs.Main:CreateButton({
+    Name = "Join Discord Server",
+    Interact = true,
+    Callback = function()
+        local inviteURL = "https://discord.gg/q2fwB2KMPX"
+        if typeof(setclipboard) == "function" then
+            local success, err = pcall(setclipboard, inviteURL)
+            if success then Notify("Discord", "Invite link copied!", 4)
+            else Notify("Error", "Failed to copy link.", 3); warn("[WC] setclipboard error:", err); Notify("Discord Invite", inviteURL, 10) end
+        else Notify("Discord Invite", inviteURL, 10); warn("[WC] setclipboard function not available. Link:", inviteURL) end
+    end
+})
+
+
+-- Macro Tab Setup & Logic
+local macroScreenGui = nil           -- Holds the ScreenGui for the macro buttons
+local macroInstructionLabel = nil    -- Shows instructions during placement
+local currentMacroAddState = 0       -- 0: Idle, 1: Wait Toggle Pos, 2: Wait Click Pos
+local tempTogglePos = nil
+local tempMacroName = ""
+local activeMacroButtons = {}        -- Stores data for all active macro buttons
+
+-- These hold current macro settings from the UI (updated by Rayfield callbacks)
+local currentMacroCPS = 10
+local currentMacroMode = "Toggle"
+local showMacroButtons = true
+local currentMacroNameValue = ""
+
+-- Makes the little macro buttons draggable
+local function makeDraggable(guiObject)
+    local dragging, dragInput, dragStart, startPos = false, nil, nil, nil
+    if not guiObject or not guiObject:IsA("GuiObject") then return end
+
+    guiObject.InputBegan:Connect(function(input)
+        -- Allow dragging only when not placing a macro
+        if currentMacroAddState == 0 and (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then
+            local mouseLoc, guiPos, guiSize = UserInputService:GetMouseLocation(), guiObject.AbsolutePosition, guiObject.AbsoluteSize
+            -- Check if click is actually on the button, not transparent background
+            if mouseLoc.X >= guiPos.X and mouseLoc.X <= guiPos.X + guiSize.X and mouseLoc.Y >= guiPos.Y and mouseLoc.Y <= guiPos.Y + guiSize.Y then
+                dragging = true
+                dragStart = input.Position
+                startPos = guiObject.Position
+                local connection -- Track the Changed connection to disconnect it later
+                connection = input.Changed:Connect(function()
+                    if input.UserInputState == Enum.UserInputState.End then
+                        dragging = false
+                        if connection then connection:Disconnect() end -- Clean up listener
+                    end
+                end)
+            end
+        end
+    end)
+
+    guiObject.InputChanged:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+            dragInput = input -- Keep track of the input object for position updates
+        end
+    end)
+
+    UserInputService.InputChanged:Connect(function(input)
+        -- If dragging and the input object matches the one we're tracking...
+        if input == dragInput and dragging and guiObject.Parent then
+            local delta = input.Position - dragStart
+            local screen_size = (macroScreenGui and macroScreenGui.AbsoluteSize) or UserInputService:GetScreenSize() -- Fallback to screen size
+            local button_size = guiObject.AbsoluteSize
+            -- Calculate new position, clamped within screen bounds
+            local newPos = UDim2.new(
+                startPos.X.Scale, math.clamp(startPos.X.Offset + delta.X, 0, screen_size.X - button_size.X),
+                startPos.Y.Scale, math.clamp(startPos.Y.Offset + delta.Y, 0, screen_size.Y - button_size.Y)
+            )
+            guiObject.Position = newPos
+        end
+    end)
+    guiObject.Selectable = true -- Make sure it can receive input
+    guiObject.Active = true     -- Make sure it's processed
+end
+
+-- Show/hide the 'Click here' instruction label at the top
+local function showInstruction(text)
+    if not PlayerGui then return end
+    if not macroInstructionLabel or not macroInstructionLabel.Parent then
+        macroInstructionLabel = Instance.new("TextLabel", PlayerGui)
+        macroInstructionLabel.Name = "WaveClient_MacroInstruction"; macroInstructionLabel.Size = UDim2.new(1,0,0,50); macroInstructionLabel.Position = UDim2.new(0,0,0,0); macroInstructionLabel.BackgroundColor3 = Color3.fromRGB(0,0,0); macroInstructionLabel.BackgroundTransparency = 0.3; macroInstructionLabel.TextColor3 = Color3.fromRGB(255,255,0); macroInstructionLabel.Font = Enum.Font.SourceSansBold; macroInstructionLabel.TextSize = 20; macroInstructionLabel.TextWrapped = true; macroInstructionLabel.TextXAlignment = Enum.TextXAlignment.Center; macroInstructionLabel.TextYAlignment = Enum.TextYAlignment.Center; macroInstructionLabel.ZIndex = 10 -- Should be on top
+    end
+    macroInstructionLabel.Text = text; macroInstructionLabel.Visible = true
+end
+local function hideInstruction() if macroInstructionLabel then macroInstructionLabel.Visible = false end end
+
+-- Creates a new draggable macro button on screen
+local function addMacroToggleButton(macroName, clickPositionVec2, togglePositionVec2)
+    if not PlayerGui then Notify("Macro Error", "PlayerGui not found.", 5); return end
+    if not VirtualInputManager then Notify("Macro Error", "VirtualInputManager unavailable.", 5); return end
+
+    -- Create the ScreenGui container if it doesn't exist
+    if not macroScreenGui or not macroScreenGui.Parent then
+        macroScreenGui = Instance.new("ScreenGui", PlayerGui); macroScreenGui.Name="WaveClient_MacroToggles"; macroScreenGui.ZIndexBehavior=Enum.ZIndexBehavior.Sibling; macroScreenGui.ResetOnSpawn=false
+    end
+
+    local toggledState, mouseEnterState = false, false
+
+    -- Create the button appearance
+    local toggleButton = Instance.new("TextButton")
+    toggleButton.Name = macroName .. "_Toggle"; toggleButton.Size = UDim2.fromOffset(50, 50); toggleButton.Position = UDim2.fromOffset(togglePositionVec2.X-25, togglePositionVec2.Y-25); toggleButton.AnchorPoint = Vector2.new(0.5,0.5); toggleButton.BackgroundColor3 = Color3.fromRGB(50,50,50); toggleButton.BorderSizePixel = 0; toggleButton.TextColor3 = Color3.fromRGB(255,255,255); toggleButton.Text = macroName; toggleButton.TextSize = 10; toggleButton.TextWrapped = true; toggleButton.AutoButtonColor = false; toggleButton.ClipsDescendants = true; toggleButton.Parent = macroScreenGui
+    local uiCorner = Instance.new("UICorner", toggleButton); uiCorner.CornerRadius = UDim.new(0.5,0) -- Make it circular
+    toggleButton.Visible = showMacroButtons -- Set initial visibility
+
+    -- Store button data for later reference
+    local macroData = { button=toggleButton, clickPos=clickPositionVec2, name=macroName, clickThread=nil }
+    table.insert(activeMacroButtons, macroData)
+
+    -- Safely perform a virtual mouse click
+    local function doClick(targetPos)
+        if not VirtualInputManager then warn("[Macro] VIM lost!"); return false end
+        local s1,e1=pcall(VirtualInputManager.SendMouseButtonEvent,VirtualInputManager,targetPos.X,targetPos.Y,0,true,game,1); task.wait(0.01)
+        local s2,e2=pcall(VirtualInputManager.SendMouseButtonEvent,VirtualInputManager,targetPos.X,targetPos.Y,0,false,game,1)
+        if not s1 then warn("[Macro] Click Down Err:",e1) end; if not s2 then warn("[Macro] Click Up Err:",e2) end; return s1 and s2
+    end
+
+    -- Handle clicks on the macro button itself
+    toggleButton.MouseButton1Click:Connect(function()
+        if currentMacroAddState ~= 0 then return end -- Ignore clicks during placement
+        local mode = currentMacroMode
+
+        if mode == 'Toggle' then
+            toggledState = not toggledState -- Flip the toggle state
+            toggleButton.BackgroundColor3 = toggledState and Color3.fromRGB(0,180,0) or Color3.fromRGB(50,50,50) -- Green = ON
+
+            if toggledState then -- If turned ON
+                if macroData.clickThread then task.cancel(macroData.clickThread) end -- Stop any previous clicking loop
+                macroData.clickThread = task.spawn(function() -- Start the new clicking loop
+                    repeat
+                        if not doClick(clickPositionVec2) then break end -- Attempt click, stop if it fails
+                        task.wait(1 / math.max(1, currentMacroCPS)) -- Wait according to CPS
+                    until not toggledState or not toggleButton.Parent -- Stop if toggled off or button gone
+                    if toggleButton.Parent and not toggledState then toggleButton.BackgroundColor3 = Color3.fromRGB(50,50,50) end -- Reset color if stopped normally
+                    macroData.clickThread = nil -- Clear thread reference
+                end)
+            else -- If turned OFF
+                if macroData.clickThread then task.cancel(macroData.clickThread); macroData.clickThread = nil end -- Stop the loop
+            end
+
+        elseif mode == 'No Repeat' then
+            toggleButton.BackgroundColor3 = Color3.fromRGB(0,180,0); doClick(clickPositionVec2); task.wait(0.1) -- Flash green, click once
+            if toggleButton.Parent then toggleButton.BackgroundColor3 = Color3.fromRGB(50,50,50) end -- Reset color
+        end
+        -- "Repeat While Holding" is handled below by MouseEnter/Leave
+    end)
+
+    -- Handle mouse entering the button area
+    toggleButton.MouseEnter:Connect(function()
+        if currentMacroAddState ~= 0 then return end
+        mouseEnterState = true
+        if currentMacroMode == 'Repeat While Holding' then
+            if macroData.clickThread then task.cancel(macroData.clickThread) end -- Stop previous loop just in case
+            toggleButton.BackgroundColor3 = Color3.fromRGB(0,180,0) -- Turn green
+            macroData.clickThread = task.spawn(function() -- Start clicking loop
+                repeat
+                    if not doClick(clickPositionVec2) then break end
+                    task.wait(1 / math.max(1, currentMacroCPS))
+                until not mouseEnterState or not toggleButton.Parent -- Stop when mouse leaves or button removed
+                if toggleButton.Parent and not mouseEnterState then toggleButton.BackgroundColor3 = Color3.fromRGB(50,50,50) end -- Reset color if stopped by mouse leaving
+                macroData.clickThread = nil -- Clear thread reference
+            end)
+        end
+    end)
+
+    -- Handle mouse leaving the button area
+    toggleButton.MouseLeave:Connect(function()
+        if currentMacroAddState ~= 0 then return end
+        mouseEnterState = false -- The loop above checks this flag to stop itself
+        if currentMacroMode == 'Repeat While Holding' then
+            if macroData.clickThread then task.cancel(macroData.clickThread); macroData.clickThread = nil end -- Explicitly stop thread too
+            if toggleButton.Parent then toggleButton.BackgroundColor3 = Color3.fromRGB(50,50,50) end -- Reset color
+        end
+    end)
+
+    -- Make the button draggable
+    makeDraggable(toggleButton)
+
+    -- Clean up when the button is destroyed
+    toggleButton.Destroying:Connect(function()
+        if macroData.clickThread then task.cancel(macroData.clickThread); macroData.clickThread = nil end -- Stop clicking loop
+        for i, data in ipairs(activeMacroButtons) do if data.button == toggleButton then table.remove(activeMacroButtons, i); break end end -- Remove from our tracking table
+    end)
+
+    Notify("Macro Added", "'" .. macroName .. "' toggle created.", 3)
+end
+
+-- Rayfield UI Elements for Macro Config
+Tabs.Macro:CreateLabel("Macro Setup: Set options, click Add, place toggle, place click.")
+Tabs.Macro:CreateTextbox({ Name = "Macro Name", Text = "", Placeholder = "E.g., AutoFarm", Numbers = false, Flag = "MacroName", Callback = function(text) currentMacroNameValue = text end }) -- Updates local var
+Tabs.Macro:CreateSlider({ Name = "Clicks Per Second (CPS)", Range = {1, 100}, Increment = 1, Suffix = " CPS", CurrentValue = 10, Flag = "MacroCPS", Callback = function(value) currentMacroCPS = tonumber(value) or 10 end }) -- Updates local var
+Tabs.Macro:CreateDropdown({ Name = "Macro Mode", Options = {"Toggle", "Repeat While Holding", "No Repeat"}, Default = "Toggle", Flag = "MacroMode", Callback = function(selectedMode) currentMacroMode = selectedMode end }) -- Updates local var
+Tabs.Macro:CreateToggle({ Name = "Show Macro Buttons", CurrentValue = true, Flag = "ShowMacroPositions", -- Updates local var & button visibility
+    Callback = function(value)
+        showMacroButtons = value
+        if macroScreenGui then for _, data in ipairs(activeMacroButtons) do if data.button and data.button.Parent then data.button.Visible = value end end end
+        if currentMacroAddState ~= 0 then if not value then hideInstruction() else if currentMacroAddState == 1 then showInstruction("Click screen for Macro TOGGLE button.") elseif currentMacroAddState == 2 then showInstruction("Click screen where Macro should CLICK.") end end end
+    end
+})
+Tabs.Macro:CreateButton({ Name = "Add New Macro", Interact = true, Tooltip = "Starts position selection.",
+    Callback = function() local name = currentMacroNameValue; if not name or name:match("^%s*$") then Notify("Macro Error","Enter valid name.",4); return end; if currentMacroAddState ~= 0 then Notify("Macro Info","Already adding.",4); return end; if not VirtualInputManager then Notify("Macro Error","VIM unavailable.",5); return end; tempMacroName = name; currentMacroAddState = 1; showInstruction("Click screen for Macro TOGGLE button.") end })
+Tabs.Macro:CreateButton({ Name = "Reset All Macros", Interact = true, Tooltip = "Removes all macro buttons.",
+    Callback = function() if #activeMacroButtons == 0 then Notify("Macro Info","No macros to reset.",3); return end; print("Resetting macros..."); for i = #activeMacroButtons, 1, -1 do local d = activeMacroButtons[i]; if d and d.button and d.button.Parent then d.button:Destroy() else table.remove(activeMacroButtons, i) end end; Notify("Macro Reset","All toggles removed.",4) end })
+Tabs.Macro:CreateButton({ Name = "Cancel Add Macro", Interact = true, Tooltip = "Cancel placement process.",
+    Callback = function() if currentMacroAddState == 0 then Notify("Macro Info","Not adding.",3); return end; currentMacroAddState = 0; tempTogglePos = nil; tempMacroName = ""; hideInstruction(); Notify("Macro","Placement cancelled.",3) end })
+
+-- Listen for clicks anywhere to place the macro (Toggle Pos -> Click Pos)
+UserInputService.InputBegan:Connect(function(input, gameProcessedEvent)
+    if gameProcessedEvent or currentMacroAddState == 0 then return end -- Ignore processed input or if not placing
+
+    -- Handle left click or touch for placement steps
+    if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+        if currentMacroAddState == 1 then -- Step 1: Place Toggle Button
+            tempTogglePos = input.Position
+            currentMacroAddState = 2 -- Go to next step
+            showInstruction("Click screen where Macro should CLICK.")
+        elseif currentMacroAddState == 2 then -- Step 2: Place Click Location & Create
+            local finalClickPos, finalTogglePos, finalMacroName = input.Position, tempTogglePos, tempMacroName
+            currentMacroAddState = 0; tempTogglePos = nil; tempMacroName = ""; hideInstruction() -- Reset state first
+            addMacroToggleButton(finalMacroName, finalClickPos, finalTogglePos) -- Create the button
+        end
+    -- Handle right click or escape to cancel placement
+    elseif input.UserInputType == Enum.UserInputType.MouseButton2 or input.KeyCode == Enum.KeyCode.Escape then
+        if currentMacroAddState ~= 0 then -- Only cancel if actually placing
+            currentMacroAddState = 0; tempTogglePos = nil; tempMacroName = ""; hideInstruction(); Notify("Macro","Placement cancelled.",3)
+        end
+    end
+end)
+
+-- Extras Tab Content
+Tabs.Extras:CreateSlider({ Name = "Set FPS Cap", Range = {30, 240}, Increment = 10, Suffix = " FPS", CurrentValue = 60, Flag = "FPSCap",
+    Callback = function(value) if typeof(setfpscap) == "function" then local s,e=pcall(setfpscap,value); if s then Notify("FPS Cap Set","Cap is now "..value,3) else Notify("Error","Failed set FPS cap.",3); warn("[WC] setfpscap err:",e) end else Notify("Error","'setfpscap' n/a.",4); warn("[WC] setfpscap n/a.") end end })
+
+-- Settings Tab Content
+Tabs.Settings:CreateLabel("Configuration is saved automatically when changed.")
+Tabs.Settings:CreateLabel("Config File Path:")
+Tabs.Settings:CreateLabel("YourExecutorFolder/WaveClient/UIConfig.json") -- Generic path
+
+-- Finalization
+Rayfield:LoadConfiguration() -- Load saved settings from UIConfig.json
+Notify("Wave Client", "UI Loaded Successfully!", 5)
+
+-- Apply initial states after loading config (needs slight delay)
+task.wait(1.2) -- Increased delay slightly just in case LoadConfig takes time/triggers callbacks slowly
+if showMacroButtons ~= nil and macroScreenGui then
+    for _, data in ipairs(activeMacroButtons) do
+        if data.button and data.button.Parent then data.button.Visible = showMacroButtons end
+    end
+end

@@ -52,10 +52,10 @@ local Window = Rayfield:CreateWindow({
 -- Set up the main tabs
 local placeholderIcon = 4483362458 -- Using a placeholder ID, find better ones if needed
 local Tabs = {
-    Main = Window:CreateTab("Main", placeholderIcon),
-    Macro = Window:CreateTab("Macro", placeholderIcon),
-    Extras = Window:CreateTab("Extras", placeholderIcon),
-    Settings = Window:CreateTab("Settings", placeholderIcon)
+    Main = Window:CreateTab("Main", "home"),
+    Macro = Window:CreateTab("Macro", "repeat"),
+    Extras = Window:CreateTab("Extras", "sparkles"),
+    Settings = Window:CreateTab("Settings", "settings")
 }
 
 -- Helper functions
